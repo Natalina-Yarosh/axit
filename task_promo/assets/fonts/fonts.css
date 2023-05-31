@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Circular Std';
+    font-style: bold;
+    font-weight: 700;
+    src: url("CircularStd/CircularStd-Bold.woff2") format("woff2"),
+         url("CircularStd/CircularStd-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: medium;
+    font-weight: 500;
+    src: url("Roboto/Roboto-Medium.woff2") format("woff2"),
+         url("Roboto/Roboto-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: regular;
+    font-weight: 400;
+    src: url("Roboto/Roboto-Regular.woff2") format("woff2"),
+         url("Roboto/Roboto-Regular.woff") format("woff");
+}
