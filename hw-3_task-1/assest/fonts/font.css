@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+    src: url(/assest/fonts/Open_Sans/OpenSans_Condensed-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+    src: url(/assest/fonts/Open_Sans/OpenSans_Condensed-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+    src: url(/assest/fonts/Open_Sans/OpenSans_Condensed-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway', sans-serif;
+    src: url(/assest/fonts/Raleway/Raleway-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
