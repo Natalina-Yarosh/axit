@@ -30,7 +30,8 @@ body {
 }
 
 .about__link {
-    width: 184px;
+    max-width: 184px;
+    width: 100%;
     padding: 8px 0;
     text-align: center;
     display: inline-block;
@@ -45,17 +46,19 @@ body {
 }
 
 .about__link_active {
-    width: 203px;
+    max-width: 203px;
     border-top: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-radius: 5px 5px 0px 0px;
+    position: relative;
 }
 
 .about__link_active:after {
     content: "";
     display: block;
     position: absolute;
+    bottom: -2px;
     top: 134px;
     width: 201px;
     height: 0px;
@@ -68,7 +71,7 @@ body {
 }
 
 .about__text {
-    padding: 56px 29px 48px 100px;
+    padding: 56px 29px 54px 100px;
     width: 59%;
 }
 
@@ -82,7 +85,7 @@ body {
 }
 
 .about__information {
-    padding-bottom: 84px;
+    margin-bottom: 84px;
 }
 
 .about__subtitle {
@@ -125,7 +128,6 @@ body {
 .btn {
     max-width: 270px;
     width: 100%;
-    height: 58px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -139,7 +141,7 @@ body {
 
 /*Awesome block*/
 .awesome {
-    padding: 0 0 110px;
+    margin-bottom: 110px;
 }
 
 .title {
@@ -147,13 +149,14 @@ body {
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .border {
     width: 170px;
     height: 0px;
     border-bottom: 1px solid #EC7979;
-    margin: 40px auto;
+    margin: 0 auto 40px;
 }
 
 .awesome__subtitle {
@@ -172,6 +175,11 @@ body {
 .item {
     max-width: 371px;
     text-align: center;
+    margin-right: 27px;
+}
+
+.item:last-child {
+    margin-right: 0;
 }
 
 .item_icon {
@@ -180,7 +188,9 @@ body {
     border: 1px solid #EC7979;
     border-radius: 50%;
     margin: 0 auto;
-    padding: 13.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 24px;
 }
 
