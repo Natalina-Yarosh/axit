@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+
+.tab {
+    margin-bottom: 75px;
+}
+
+.container {
+    max-width: 1202px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.tab-label__container {
+    display: inline-block;
+    padding: 10px;
+    max-width: 203px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.tab-label__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.tab-label__container__activ {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab {
+    border: 1px solid #C6CBCD;
+
+}
+
+.tab__container {
+    width: 58%;
+    display: inline-block;
+    padding: 50px 40px 50px 100px;
+    vertical-align: top;
+}
+
+.tab__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 47px;
+}
+
+.tab__paragraf {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 26px;
+}
+
+.tab__paragraf:last-child {
+    margin-bottom: 84px;
+}
+
+
+.tad__wrapper-img {
+    display: inline-block;
+    width: 40%;
+
+
+}
+
+.tab__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 270px;
+    width: 100%;
+    background-color: #ec7979;
+    border: 1px solid #ec7979;
+    color: #ffffff;
+    padding: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tab__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.awesome {
+    margin-bottom: 110px;
+}
+
+
+
+.awesome__title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.awesome__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 92px;
+    color: #86878B;
+    text-align: center;
+}
+
+.awesome__separator {
+    width: 170px;
+    border-bottom: 1px solid #EC7979;
+    margin: 0 auto 40px;
+
+}
+
+
+
+.advantages__container {
+    display: inline-block;
+    max-width: 370px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+
+.advantages__container:last-child {
+    margin-right: 0;
+}
+
+.advantages__img-box {
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+
+}
+
+.advantages__img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+}
+
+
+.advantages__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 33px;
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.advantages__description {
+    font-size: 18px;
+    line-height: 21px;
+
+}
