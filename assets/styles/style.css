@@ -6,7 +6,7 @@
 .tabs {
     margin-bottom: 118px;
 }
-.tabs__partitions {
+.tabs__partition {
     display:flex;
 }
 .partition {
@@ -30,16 +30,16 @@
     line-height: 41px;
     font-weight: 700;
 }
-.tab__paragraph-1 {
+.tab__paragraph:first-child {
     margin-bottom:26px;
 }
-.tab__paragraph-2 {
+.tab__paragraphs {
     margin-bottom: 84px;
 }
 .tab__image-wrapper{
     width:42%;
 }
-.tabs__image {
+.tab__image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -50,8 +50,9 @@
 }
 .tab__button {
 font-family: 'Open Sans', sans-serif;
-width: 270px;
-height: 57px;
+max-width: 270px;
+width:100%;
+padding: 16px 0 16px;
 background-color: #EC7979;
 border-style:none;
 text-align: center;
@@ -113,7 +114,7 @@ margin-bottom: 110px;
     justify-content: center;
 }
 
-.item{
+.group__item{
     max-width:370px;
    margin-right: 28px;
 }
