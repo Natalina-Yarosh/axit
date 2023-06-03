@@ -1,8 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 .tabs{
     max-width: 1202px;
@@ -32,10 +31,6 @@
     border: 1px solid 1px solid #C6CBCD;
     border-bottom: none;
 }
-.wrapper__tab{
-    text-transform: uppercase;
-    padding: 10px 0px;
-}
 .box{
     display: inline-block;
     border-top: 1px solid #C6CBCD;
@@ -43,40 +38,39 @@
     border-right: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
 }
-.content{
+.box__content{
     width: 59%;
     display: inline-block;
 }
 .image{
-    height: 100%;
     width: 40%;
     display: inline-block;
 }
 .content{
     padding-left: 101px;
 }
-.content__title{
+.box__title{
     margin-bottom: 57px;
     font-family: 'Open_Sans', sans-serif;
     font-weight: 700;
 }
-.content__text{
+.box__text{
     margin-bottom: 26px;
     margin-right: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
-.content__text2{
+.box__text2{
     margin-bottom: 84px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
-.image__statue{
+.box__image{
     height: 100%;
     width: 100%;
     object-fit: fill;
 }
-.content__btn{
+.box__btn{
     margin-bottom: 54px;
     background: #EC7979;
     color: rgb(255, 255, 255);
