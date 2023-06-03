@@ -4,14 +4,14 @@
     box-sizing: border-box;
     
 }
-.page2{
+.tabs{
     padding: 100px 0;
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
-.page2__tabs{
+.tabs__items{
     display: inline-block;
 }
 .page2__tab{
