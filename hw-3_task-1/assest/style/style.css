@@ -12,8 +12,20 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-.tabs__itemsgit{
+.tabs__item{
     display: inline-block;
+    text-align: center;
+    max-width: 184px;
+    width: 100%;
+    font-family: 'Open_Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid transparent;
+    border-bottom: none;
 }
 .page2__tab{
     display: inline-block;
