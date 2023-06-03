@@ -41,13 +41,11 @@
 .box__content{
     width: 59%;
     display: inline-block;
+    padding: 55px 29px 54px 100px;
 }
 .image{
     width: 40%;
     display: inline-block;
-}
-.content{
-    padding-left: 101px;
 }
 .box__title{
     margin-bottom: 57px;
