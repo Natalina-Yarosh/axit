@@ -27,20 +27,10 @@
     border: 1px solid transparent;
     border-bottom: none;
 }
-.page2__tab{
-    display: inline-block;
-    height: 40px;
-    text-align: center;
-    width: 184px;
-    font-family: 'Open_Sans', sans-serif;
-    font-weight: 400;
-}
-.tab1{
-    width: 203px;
-    border-top: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
-    border-radius: 10px 10px 0px 0px;
+.tabs__item_active{
+    max-width: 203px;
+    border: 1px solid 1px solid #C6CBCD;
+    border-bottom: none;
 }
 .wrapper__tab{
     text-transform: uppercase;
