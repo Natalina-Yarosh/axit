@@ -28,8 +28,9 @@
 }
 .tabs__item_active{
     max-width: 203px;
-    border: 1px solid 1px solid #C6CBCD;
+    border: 1px solid #C6CBCD;
     border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
 }
 .box{
     display: inline-block;
