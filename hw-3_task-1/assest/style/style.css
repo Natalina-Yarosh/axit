@@ -73,13 +73,13 @@
     object-fit: cover;
 }
 .box__btn{
-    margin-bottom: 54px;
     background: #EC7979;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
-    padding: 10px 40px;
-    font-family: 'Open_Sans', sans-serif;
+    padding: 15px;
+    max-width: 270px;
+    width: 100%;
     font-weight: 600;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 26px;
 }
