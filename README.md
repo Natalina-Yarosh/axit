@@ -8,4 +8,4 @@
 
 ## Description ##
 
-_{The first Axit training layout.}_
+_The first Axit training layout._
