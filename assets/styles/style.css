@@ -10,13 +10,24 @@
     display:flex;
 }
 .partition {
-    padding: 10px 82px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color:#333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 184px;
+    width: 100%;
 }
 .partition_current {
     border: 1px solid #C6CBCD;
-    padding: 10px 82px;
+    padding: 10px;
     border-radius: 5px 5px 0 0;
     border-bottom: none;
+    max-width:203px;
 }
 .tab {
     padding: 55px 29px 54px 100px;
@@ -52,7 +63,7 @@
 font-family: 'Open Sans', sans-serif;
 max-width: 270px;
 width:100%;
-padding: 16px 0 16px;
+padding: 16px;
 background-color: #EC7979;
 border-style:none;
 text-align: center;
@@ -60,15 +71,6 @@ color: #FFFFFF;
 font-weight:600;
 font-size: 18px;
 line-height:25px;
-}
-.partition {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color:#333333;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 .paragraph {
 font-family: 'Raleway', sans-serif;
