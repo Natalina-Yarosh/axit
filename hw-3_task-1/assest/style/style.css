@@ -51,17 +51,22 @@
     margin-bottom: 57px;
     font-family: 'Open_Sans', sans-serif;
     font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
 }
 .box__text{
     margin-bottom: 26px;
-    margin-right: 30px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 .box__text2{
     margin-bottom: 84px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 .box__image{
     height: 100%;
@@ -74,4 +79,8 @@
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     padding: 10px 40px;
+    font-family: 'Open_Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
 }
