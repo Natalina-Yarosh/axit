@@ -5,7 +5,8 @@
     
 }
 .tabs{
-    padding: 100px 0;
+    max-width: 1202px;
+    padding: 0 16px;
 }
 .container{
     max-width: 1200px;
