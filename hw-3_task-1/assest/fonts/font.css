@@ -2,23 +2,31 @@
     font-family: 'Open Sans', sans-serif;
     src: url(/assest/fonts/Open_Sans/OpenSans_Condensed-Regular.ttf) format('truetype');
     font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
     font-style: normal;
 }
 @font-face{
     font-family: 'Open Sans', sans-serif;
     src: url(/assest/fonts/Open_Sans/OpenSans_Condensed-Bold.ttf) format('truetype');
     font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
     font-style: normal;
 }
 @font-face{
     font-family: 'Open Sans', sans-serif;
     src: url(/assest/fonts/Open_Sans/OpenSans_Condensed-SemiBold.ttf) format('truetype');
     font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
     font-style: normal;
 }
 @font-face{
     font-family: 'Raleway', sans-serif;
     src: url(/assest/fonts/Raleway/Raleway-Regular.ttf) format('truetype');
     font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     font-style: normal;
 }
