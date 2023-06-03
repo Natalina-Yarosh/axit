@@ -43,7 +43,7 @@
     display: inline-block;
     padding: 55px 29px 54px 100px;
 }
-.image{
+.box_wrap-image{
     width: 40%;
     display: inline-block;
 }
@@ -82,4 +82,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
+}
+.box__texts{
+    margin-bottom: 54px;
 }
