@@ -91,3 +91,67 @@
     width: 446px;
     height: 520px;
 }
+.advantages {
+    margin-bottom: 110px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.advantages__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.advantages__border {
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+    margin: 0 auto 40px;
+}
+.advantages__slogan {
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 92px;
+    font-family: 'Raleway', sans-serif;
+}
+.advantage {
+    display: inline-block;
+    max-width: 354px;
+    margin-right: 28px;
+    vertical-align: top;
+}
+.advantage:last-child {
+    margin-right: 0;
+
+}
+.advantage__wrap{
+    margin: 0 auto 24px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    width: 92px;
+    height: 92px;
+}
+.advantage__img{
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+}
+.advantage__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 26px; 
+    font-family: 'Open Sans', sans-serif; 
+}
+.advantage__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+}
