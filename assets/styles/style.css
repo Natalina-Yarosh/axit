@@ -65,6 +65,10 @@
     margin-bottom: 26px;
 }
 
+.tab__paragraf:last-child {
+    margin-bottom: 0;
+}
+
 .tab__content {
     margin-bottom: 84px;
 }
