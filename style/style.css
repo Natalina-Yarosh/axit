@@ -11,37 +11,24 @@
     margin: 0 auto;
     max-width: 1202px;
 }
-.transitions__tabs{
-    max-width: 1170px;
-    height: 39px;
-    margin: 0 auto;
-}
-.transitions__tab-one{
+.transitions__tab_active {
+    max-width: 202px;
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0px 0px;
-    width: 203px;
-    height: 40px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 35px;
-    font-family: 'Open Sans', sans-serif;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    display: inline-block;
 }
-.transitions__tab{
+.transitions__tab {
     font-weight: 400;
     font-size: 14px;
-    line-height: 35px;
+    line-height: 20px;
     font-family: 'Open Sans', sans-serif;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
-    width: 184px;
-    height: 40px;
+    max-width: 184px;
+    width: 100%;
     display: inline-block;
+    padding: 9px;
     }
+
 .transitions__content{
     border: 1px solid #C6CBCD;
 }
