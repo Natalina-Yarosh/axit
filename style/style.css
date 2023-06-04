@@ -4,27 +4,23 @@
     box-sizing: border-box;
 }
 .tab-info{
-    /* width: 1510px; */
     margin-bottom: 118px;
 }
 
+.awesome{
+    text-align: center;
+}
 .container {
     max-width: 1202px;
     padding: 0 16px;
     margin:0 auto;
-    text-align: center;
 }
 
-.tab-info__item_active {
-    border: 1px solid #C6CBCD;
-    border-radius: 5px 5px 0px 0px;
-
-}
 .tab-info__item {
     max-width: 183px;
     width:100%;
     padding:10px;
-    /* border:1px solid transparent; */
+    border:1px solid transparent;
     border-bottom:none;
     text-align: center;
     display:inline-block;
@@ -33,6 +29,12 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+}
+.tab-info__item_active {
+    max-width: 203px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
 }
 .tab-info__tab{
     border: 1px solid #C6CBCD;
@@ -63,8 +65,11 @@
     font-size: 18px;
     line-height: 21px;
 }
+.text__main:last-child{
+    margin-bottom: 0px;
+}
 
-.content__download{
+.tab__btn {
     max-width: 270px;
     width:100%;
     padding:16px;
@@ -89,7 +94,6 @@
     width: 100%;
     object-fit:cover;
 }
-   
 /* css блока Awesome */
 
 .awesome__title{
