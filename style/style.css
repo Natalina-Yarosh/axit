@@ -6,10 +6,10 @@
 .transitions{
     margin-bottom: 110px;
 }
-.box{
+.container{
     padding: 0 15px;
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 1202px;
 }
 .transitions__tabs{
     max-width: 1170px;
@@ -95,11 +95,6 @@
     margin-bottom: 110px;
     text-align: center;
 
-}
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 .advantages__title {
     font-weight: 400;
