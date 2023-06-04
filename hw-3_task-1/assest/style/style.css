@@ -4,12 +4,12 @@
     box-sizing: border-box; 
 }
 .tabs{
-    max-width: 1202px;
-    padding: 0 16px;
+    margin-bottom: 118px;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1202px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 .tabs__item{
     display: inline-block;
@@ -33,11 +33,7 @@
     border-radius: 10px 10px 0px 0px;
 }
 .box{
-    display: inline-block;
-    border-top: 1px solid #C6CBCD;
-    border-bottom: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD;
+    border: 1px solid #C6CBCD;
 }
 .box__content{
     width: 59%;
@@ -47,6 +43,7 @@
 .box_wrap-image{
     width: 40%;
     display: inline-block;
+    vertical-align: top;
 }
 .box__title{
     margin-bottom: 57px;
@@ -62,11 +59,8 @@
     font-size: 18px;
     line-height: 21px;
 }
-.box__text2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+.box__text:last-child{
+    margin: 0;
 }
 .box__image{
     height: 100%;
