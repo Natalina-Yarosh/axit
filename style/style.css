@@ -45,18 +45,21 @@
     margin-bottom: 57px;
     font-family: 'Open Sans', sans-serif;
 }
-.transitions_text{
+.transitions__description{
+    margin-bottom: 84px;
+}
+p:first-child{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 26px;
     font-family: 'Raleway', sans-serif;
 }
-.transitions_text2{
+p:last-child{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    margin-bottom: 84px;
+    margin-bottom: 0px;
     font-family: 'Raleway', sans-serif;
 }
 .transitions__button{
