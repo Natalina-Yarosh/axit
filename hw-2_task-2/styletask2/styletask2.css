@@ -14,56 +14,54 @@
     margin-bottom: 110px;
     display: inline;
 }
-h2{
+.main__title{
     text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
     color: #000000;
     margin-bottom: 40px;
 }
-.first{
+.line{
     margin-bottom: 40px;
     border: 1px solid #EC7979;
     width: 170px;
     margin: 0 auto 40px;
 }
-.discription{
+.main__discription{
     margin-bottom: 92px;
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
 }
-.block{
+.box__block{
     max-width: 371px;
     display: inline-block;
     margin-right: 24px;
 }
-.image{
+.box_wrap-image{
     border: 1px solid #EC7979;
     width: 92px;
     height: 92px;
     border-radius: 50%;
     margin: 0 auto 24px;
 }
-.subtitle{
+.box__subtitle{
     font-size: 24px;
     line-height: 33px;
     color: #000000;
     margin-bottom: 26px;
+    font-family: 'Open Sans', sans-serif;
 }
-.text{
+.box__text{
     font-size: 18px;
     line-height: 21px;
     color: #000000;
 }
-.picture{
+.box__image{
     height: 100%;
     width: 100%;
     object-fit: none; 
 }
-.opensans{
-    font-family: 'Open Sans', sans-serif;
-}
-.block:last-child{
+.box__block:last-child{
     margin-right: 0px;
 }
