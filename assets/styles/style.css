@@ -19,7 +19,7 @@
 .tab-label__item {
     display: inline-block;
     padding: 10px;
-    max-width: 203px;
+    max-width: 184px;
     width: 100%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -33,6 +33,7 @@
 
 .tab-label__item_activ {
     border: 1px solid #C6CBCD;
+    max-width: 203px;
     border-bottom: none;
     border-radius: 5px 5px 0px 0px;
 }
