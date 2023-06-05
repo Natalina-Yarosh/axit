@@ -94,7 +94,7 @@
     margin-bottom: 26px;
 }
 
-.tab__info_last {
+.tab__wrap {
     margin-bottom: 84px;
 }
 
@@ -112,10 +112,10 @@
 .tab__image {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
-.conteiner {
+.container {
     max-width: 1202px;
     padding: 0 16px;
     margin: 0 auto;
