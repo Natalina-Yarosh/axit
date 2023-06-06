@@ -9,7 +9,7 @@
     max-width: 270px;
     width: 100%;
     padding: 16px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
@@ -36,11 +36,11 @@
     width: 100%;
     align-items: center;
     vertical-align: middle;
+    display: flex;
 }
 
 .tabs__item {
-    display: inline-block;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -67,17 +67,17 @@
 
 .tab {
     border: 1px solid #c6cbcd;
+    display: flex;
 }
 
 .tab__content {
-    display: inline-block;
-    width: 59%;
+    width: 60%;
     padding: 55px 29px 54px 101px;
     vertical-align: top;
 }
 
 .tab__title {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
@@ -86,7 +86,7 @@
 }
 
 .tab__info {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -104,15 +104,13 @@
 }
 
 .tab__wrap-img {
-    display: inline-block;
     width: 40%;
-    vertical-align: top;
 }
 
 .tab__image {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .container {
@@ -144,15 +142,14 @@
     color: #86878b;
     margin-bottom: 92px;
 }
-
-.content-items__item {
-    max-width: 371px;
-    display: inline-block;
-    margin-right: 24px;
+.awesom__content-items {
+    display: flex;
+    column-gap: 27px;
 }
 
-.content-items__item:last-child {
-    margin-right: 0;
+.content-items__item {
+    width: calc((100% - 27px ) / 3);
+
 }
 
 .content-items__wrap-image {
