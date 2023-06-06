@@ -145,3 +145,93 @@ p:last-child{
     line-height: 21px;
     font-family: 'Raleway', sans-serif;
 }
+.pricing{
+    margin-bottom: 110px;
+    text-align: center;
+    background: #F5F5F5;
+}
+.pricing__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 82px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.pricing__slogan{
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 59px;
+    font-family: 'Raleway', sans-serif;
+}
+.pricing__box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 83px;
+}
+.pricing__options{
+    width: calc((100% - 60px) /2);
+    margin-top: 20px;
+}
+.pricing__options_medium{
+    margin-top: 0;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+ul {
+    list-style-type: none;
+    border: 2px solid #F5F5F5;
+}
+.item {
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}
+.option{
+    background: #333333;
+    width: 370px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif; 
+}
+.price{
+    width: 370px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: #333333;
+    color: #FFFFFF;
+    }
+.free {
+    width: 370px;
+    height: 50px;
+    background: #333333;
+    color: #FFFFFF80;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.item{
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;font-weight: 400;
+    color: #86878B;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
