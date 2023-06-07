@@ -9,6 +9,7 @@
 
 .awesome{
     text-align: center;
+    margin-bottom: 118px
 }
 .container {
     max-width: 1202px;
@@ -68,7 +69,6 @@
 .text__main:last-child{
     margin-bottom: 0px;
 }
-
 .tab__btn {
     max-width: 270px;
     width:100%;
@@ -96,7 +96,7 @@
 }
 /* css блока Awesome */
 
-.awesome__title{
+.title{
     text-transform: uppercase;
     margin-bottom: 40px;
     font-family: 'Raleway';
@@ -105,12 +105,12 @@
     line-height: 42px;
 
 }
-.awesome__separator{
+.separator{
     width:170px;
     border-bottom: 1px solid #EC7979;
     margin:0 auto 40px;
 }
-.awesome__subtitle{
+.subtitle{
     color:#86878B;
     margin-bottom: 92px;
     font-family: 'Raleway';
@@ -120,11 +120,13 @@
     line-height: 21px;
 }
 .awesome__benefit{
-    display:flex
+    display:flex;
+    justify-content: space-between;
 }
 .benefit__block{
-    max-width: 371px;
-    margin-right: 27px;
+    /* max-width: 371px;
+    margin-right: 27px; */
+    width:calc((100%-54px)/3);
 }
 .benefit__block:last-of-type{
     margin-right: 0px;
@@ -157,4 +159,70 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+}
+
+/* блок price */
+.price{
+    margin-bottom: 118px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding:77px 0 88px;
+}
+.price__items {
+    display:flex;
+    justify-content: space-between;
+}
+.price__item{
+    max-width: 370px;
+    width:calc((100%-60px)/3);
+    text-decoration: none;
+
+}
+.item {
+    list-style: none;
+    border:1px solid #F5F5F5;
+    padding: 15px 0 14px 0;
+    text-transform: capitalize;
+}
+.item__header{
+    background-color: #333333;
+    padding:14px 0;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+.item__cost{
+    background-color: #333333;
+    padding:29px 0;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+.item__advantage{
+    padding: 15px 0 14px 0;
+    background-color: #333333;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);}
+.item__description{
+    padding:15px 0 14px 0;
+    background-color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    
+}
+.price__item_active {
+    margin: -20px 0 0 0;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
