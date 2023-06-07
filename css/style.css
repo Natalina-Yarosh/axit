@@ -253,3 +253,122 @@
     border: 1px solid #F5F5F5;
     box-shadow: 0 4px 10px rgba(51, 51, 51, 0.2);
 }
+
+.reviews {
+    padding: 107px 0;
+}
+
+.reviews__subtitle {
+    margin-bottom: 83px;
+}
+
+.reviews__row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.review {
+    flex: 1 0;
+}
+
+.review__text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    padding: 38px 25px 37px;
+    background: #E2E2E2;
+    border-radius: 10px;
+}
+
+.review_triangle {
+    margin: 0 0 46px 70px;
+    content: '';
+    left: 70px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+}
+
+.bio {
+    display: flex;
+}
+
+.bio__image-wrap {
+    margin-right: 30px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.bio__image {
+    width: 100%;
+    height: 100%;
+}
+
+.bio__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bio__name {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.bio__position {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.interlayer {
+    background-image: url("/img/interlayer/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+/*I don't know how to make it work but in future...*/
+.interlayer::before {
+    content: '';
+    background: rgba(78, 78, 78, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.interlayer__title {
+    color: #FFFFFF
+}
+
+.interlayer__separator {
+    border: 1px solid #FFFFFF;
+}
+
+.interlayer__subtitle {
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.interlayer__btn {
+    line-height: 24px;
+    max-width: 370px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
