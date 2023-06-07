@@ -173,7 +173,6 @@ body {
 }
 
 .item {
-    width: calc((100% - 27px) / 3);
     text-align: center;
 }
 
