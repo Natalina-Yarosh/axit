@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.tab-label {
+    display: flex;
+}
+
 .tab-label__item {
     display: inline-block;
     padding: 10px;
@@ -39,15 +43,23 @@
 }
 
 .tab {
+    display: flex;
     border: 1px solid #C6CBCD;
 
 }
 
 .tab__container {
-    width: 58%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 26px;
+    width: 60%;
     padding: 50px 40px 50px 100px;
-    vertical-align: top;
+
+}
+
+.tab__content {
+    flex-grow: 1;
 }
 
 .tab__title {
@@ -70,13 +82,8 @@
     margin-bottom: 0;
 }
 
-.tab__content {
-    margin-bottom: 84px;
-}
-
 
 .tad__wrapper-img {
-    display: inline-block;
     width: 40%;
 
 
@@ -136,18 +143,19 @@
 }
 
 
+.advantages {
+    display: flex;
+    column-gap: 26px;
+}
 
 .advantages__container {
-    display: inline-block;
-    max-width: 370px;
-    margin-right: 25px;
+
+    flex: 1 0;
+
     text-align: center;
 }
 
 
-.advantages__container:last-child {
-    margin-right: 0;
-}
 
 .advantages__img-box {
     width: 92px;
