@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1202px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.tabs{
+    margin-bottom: 118px;  
+}
+
+.tabs__items{
+    display: flex;
+}
+.tabs__item{
+    max-width: 184px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    color: #333333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tabs__item_active{
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    max-width: 202px;
+    border-bottom: none;
+}
+.tab{
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+
+.tab__info{
+    padding: 55px 30px 55px 100px;
+    width: 60%;
+}
+.tab__wrap-img{
+    width: 40%;
+}
+.tab__title{
+    margin-bottom: 57px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+.tab__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 26px;
+}
+.tab__text:last-child{
+    margin-bottom: 0;
+}
+.tab__texts{
+    margin-bottom: 84px;
+}
+
+.tab__button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 270px;
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #EC7979;
+    color: #ffffff;
+    background-color: #EC7979;
+    cursor: pointer;
+}
+.tab__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page{
+    margin-bottom: 110px;
+    text-align: center;
+
+}
+.inl-block{
+  display: flex;
+}
+.bord{
+    margin: 0 auto 40px;
+    width: 170px;
+    border: 1px solid #EC7979;
+
+}
+.picture{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    border-radius: 50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+
+}
+
+.font-bottom{
+    margin: 0 auto 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 36px;
+    line-height: 42px;
+}
+.using-font{
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    line-height: 21px;
+}
+.using-font-gray{
+    font-family: 'Raleway', sans-serif;
+    color:#86878B;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 92px;
+}
+
+.containers{
+    width: 371px;
+    margin: 0 auto 27px;
+}
+
+.another-font{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 auto 40px;
+    
+}
+.last{margin-right: 0;}
+
+.pricing{
+    margin-bottom: 118px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+.pricing__title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    padding-top: 82px;
+}
+.pricing__line{
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin:0 auto 40px;
+}
+.pricing__text{
+    margin-bottom: 79px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+.pricing__items{
+    display: flex;
+    column-gap: 30px;
+
+}
+.pricing__items-box{
+    width: calc((100% - 60px) /2);
+}
+.pricing__item{
+    list-style-type:none;
+    text-align: center;
+    color: #86878B;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 14px 0 15px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}
+.item-name{
+    background-color: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.item-price{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 27px 0;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.item-free{
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+
+}
+.pricing__items-box:nth-of-type(2){
+    margin-top: -20px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
