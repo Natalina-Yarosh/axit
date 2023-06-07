@@ -150,39 +150,6 @@
     font-size: 18px;
     line-height: 21px;
 }
-.font-bottom{
-    margin: 0 auto 40px;
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-size: 36px;
-    line-height: 42px;
-}
-.using-font{
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-size: 18px;
-    line-height: 21px;
-}
-.using-font-gray{
-    font-family: 'Raleway', sans-serif;
-    color:#86878B;
-    font-size: 18px;
-    line-height: 21px;
-    margin-bottom: 92px;
-}
-
-.containers{
-    width: 371px;
-    margin: 0 auto 27px;
-}
-
-.another-font{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    margin: 0 auto 40px;
-    
-}
 .content__wrapper:last-child{
     margin-right: 0;
 }
