@@ -32,10 +32,9 @@
     margin-bottom: 110px;
 }
 
-.tabs-items {
+.tabs__items {
     width: 100%;
     align-items: center;
-    vertical-align: middle;
     display: flex;
 }
 
@@ -53,7 +52,7 @@
     padding: 10px 0;
 }
 
-.item-active {
+.tabs__item_active {
     border: 1px solid #c6cbcd;
     border-bottom: 1px solid #fff;
     border-radius: 5px 5px 0px 0px;
@@ -73,7 +72,6 @@
 .tab__content {
     width: 60%;
     padding: 55px 29px 54px 101px;
-    vertical-align: top;
 }
 
 .tab__title {
@@ -193,20 +191,21 @@
     margin-bottom: 79px
 }
 
-.pricing__content-items {
+.benefits {
     display: flex;
     column-gap: 30px;
 }
 
-.content-items__wrap {
+.content__wrap {
     width: calc((100% - 30px) / 3);
 }
-.benefits__benefit {
+
+.benefit__item {
     list-style-type: none;
     text-align: center;
-    padding: 13px 0 12px;
+    padding: 14px 0 13px;
     background: #FFFFFF;
-    border: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -214,7 +213,7 @@
     color: #86878B;
 }
 
-.benefit-first {
+.benefit__item_first {
     padding: 12px 0 11px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -226,7 +225,7 @@
     background: #333333;
 }
 
-.benefit-second {
+.benefit__item_second {
     font-family: 'Raleway', sans-serif;
     padding: 27px 0 27px;
     font-style: normal;
@@ -237,7 +236,7 @@
     background: #333333;
 }
 
-.benefit-third {
+.benefit__item_third {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -247,8 +246,13 @@
     padding: 13px 0 12px;
 }
 
-.content-items__benefits:hover {
-    margin-top: -20px;
-    border: 2px solid #F5F5F5;
+.benefit {
+    /*width: calc((100% - 30px) / 3);*/
+    flex: 1 0;
+}
+
+.benefit:hover {
+    margin: -20px 0 20px;
+    border: 1px solid #F5F5F5;
     box-shadow: 0 4px 10px rgba(51, 51, 51, 0.2);
 }
