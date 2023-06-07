@@ -151,7 +151,8 @@
 }
 
 .content-items__item {
-    width: calc((100% - 27px) / 3);
+    /*width: calc((100% - 27px) / 3);*/
+    flex: 1 0;
 
 }
 
@@ -194,10 +195,6 @@
 .benefits {
     display: flex;
     column-gap: 30px;
-}
-
-.content__wrap {
-    width: calc((100% - 30px) / 3);
 }
 
 .benefit__item {
