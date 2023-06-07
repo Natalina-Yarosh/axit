@@ -3,9 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .tabs {
-    margin-bottom: 118px;
+margin-bottom: 118px;
 }
 
 .container{
@@ -14,11 +13,10 @@
     margin: 0 auto;
 }
 
-.tabs__stuffs{
+.tabs__items{
     display: flex;
 }
-
-.tab__stuff{
+.tabs__item{
     max-width: 180px;
     width: 100%;
     text-align: center;
@@ -29,20 +27,12 @@
     padding: 10px;
     color: #333333;
     text-decoration: none;
-
 }
-.tab__active{
-    max-width: 180px;
-    width: 100%;
-    text-align: center;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 10px;
-    color: #333333;
-    text-decoration: none;
-    border: solid 1px #C6CBCD;
+
+.tabs__item_active{
+    max-width: 203px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .tab{
@@ -55,7 +45,6 @@
     width: 60%;
 }
 
-
 .tab__title{
     margin-bottom: 57px;
     font-family: 'Open Sans', sans-serif;
@@ -64,17 +53,21 @@
     line-height: 41px;
 }
 .tab__texts{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    line-height: 21px;
     margin-bottom: 84px;
 }
 
-.tab__text-two{
-    margin-top: 26px;
+.tab__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 26px;
 }
 
-.container__button{
+.tab__text:last-child{
+    margin-bottom: 0;
+}
+
+.tab__button{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -90,7 +83,6 @@
 }
 .tab__wrap-img{
     width: 40%;
-
 }
 .tab__img{
     width: 100%;
