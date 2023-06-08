@@ -136,6 +136,7 @@ body {
     text-align: center;
     padding: 16px 0;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*Awesome block*/
@@ -174,9 +175,10 @@ body {
 
 .item {
     text-align: center;
+    flex: 1 0;
 }
 
-.item_icon {
+.item__icon {
     width: 91px;
     height: 91px;
     border: 1px solid #EC7979;
@@ -193,7 +195,7 @@ body {
     height: 65px;
 }
 
-.item_header {
+.item__header {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -202,7 +204,7 @@ body {
     margin-bottom: 30px;
 }
 
-.item_subtitle {
+.item__subtitle {
     font-size: 18px;
     line-height: 21px;
 }
