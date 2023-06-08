@@ -71,7 +71,7 @@ body {
 
 .about__text {
     padding: 56px 29px 54px 100px;
-    width: 59%;
+    width: 60%;
 }
 
 .about__title {
@@ -100,7 +100,7 @@ body {
 }
 
 .about__wrap-photo {
-    width: 41%;
+    width: 40%;
 }
 
 .about__photo {
@@ -136,6 +136,7 @@ body {
     text-align: center;
     padding: 16px 0;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*Awesome block*/
@@ -169,19 +170,15 @@ body {
 .awesome__items {
     display: flex;
     justify-content: space-between;
+    column-gap: 27px;
 }
 
 .item {
-    max-width: 371px;
     text-align: center;
-    margin-right: 27px;
+    flex: 1 0;
 }
 
-.item:last-child {
-    margin-right: 0;
-}
-
-.item_icon {
+.item__icon {
     width: 91px;
     height: 91px;
     border: 1px solid #EC7979;
@@ -198,7 +195,7 @@ body {
     height: 65px;
 }
 
-.item_header {
+.item__header {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -207,7 +204,7 @@ body {
     margin-bottom: 30px;
 }
 
-.item_subtitle {
+.item__subtitle {
     font-size: 18px;
     line-height: 21px;
 }
