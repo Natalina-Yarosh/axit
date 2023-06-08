@@ -6,10 +6,12 @@
 .pricing{
     text-align: center;
     background: #F5F5F5;
-    max-width: 1204px;
-    padding: 82px 16px 83px;
+    padding: 82px 0px 83px;
+}
+.container{
+    max-width: 1202px;
+    padding: 0 16px;
     margin: 0 auto;
-
 }
 .pricing__title{
     font-family: 'Raleway';
@@ -38,21 +40,21 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
+    column-gap: 30px;
 }
 .wrapper_list{
     list-style: none;
     text-align: center;
+    flex: 1 0;
 }
 .wrapper_item{
-    border: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
     background: #FFFFFF;
-    width: 370px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    height: 50px;
     padding: 15px 0 14px;
 }
 li:nth-child(2) {
@@ -61,9 +63,7 @@ li:nth-child(2) {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    height: 100px;
-    padding: 26px 0 23px;
-    
+    padding: 29px 0 ; 
 }
 li:nth-child(-n+3) {
     background: #333333;
@@ -75,9 +75,9 @@ li:first-child {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    padding: 6px 0 5px;
+    padding: 14px 0;
 }
-.wrapper__col:nth-child(2) {
+.wrapper_list:nth-child(2) {
     margin-top: -20px;
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
