@@ -55,7 +55,7 @@ margin: auto;
 .offer__title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 41px;
     color: #000000;
     margin-bottom: 57px;
 }
@@ -91,7 +91,7 @@ margin: auto;
 }
 
 .offer__wrap-img {
-    width: 41%;
+    width: 40%;
 }
 
 .offer__img {
