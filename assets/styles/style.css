@@ -49,17 +49,15 @@
 }
 
 .tab__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    column-gap: 26px;
+
+
     width: 60%;
     padding: 50px 40px 50px 100px;
 
 }
 
 .tab__content {
-    flex-grow: 1;
+    margin-bottom: 84px;
 }
 
 .tab__title {
