@@ -229,6 +229,7 @@ body {
     padding: 12px 0;
     border-bottom: 2px solid #F5F5F5;
     color: #FFFFFF;
+    border: 1px solid #F5F5F5;
 }
 
 .option-item {
@@ -258,7 +259,7 @@ body {
     line-height: 42px;
     color: #FFFFFF;
     padding: 28px 0;
-    border-bottom: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
 }
 
 .option-item__info {
@@ -269,7 +270,7 @@ body {
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
     padding: 15px 0;
-    border-bottom: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
 }
 
 .option-item__space-info {
@@ -280,6 +281,6 @@ body {
     line-height: 21px;
     color: #86878B;
     padding: 15px 0;
-    border: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
     list-style-type: none;
 }
