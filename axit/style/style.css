@@ -223,7 +223,7 @@ body {
     align-items: flex-start;
 }
 
-.option__item-header {
+.option-item__header {
     margin-bottom: 0;
     line-height: 33px;
     padding: 12px 0;
@@ -237,7 +237,7 @@ body {
     background: #FFFFFF;
 }
 
-.option-item:nth-child(2) {
+.option-item__main {
     margin-top: -20px;
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
@@ -280,9 +280,6 @@ body {
     line-height: 21px;
     color: #86878B;
     padding: 15px 0;
-    border-bottom: 2px solid #F5F5F5;
-}
-
-.option-item__space-info:last-child {
-    border-bottom: none;
+    border: 2px solid #F5F5F5;
+    list-style-type: none;
 }
