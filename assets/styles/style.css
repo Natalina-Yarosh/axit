@@ -114,11 +114,11 @@ margin-bottom: 110px;
 .group {
     display: flex;
     justify-content: center;
+    column-gap: 28px;
 }
 
 .group__item{
-    max-width:370px;
-   margin-right: 28px;
+flex:1 0;
 }
 .item:last-child{
     margin-right:0;
@@ -159,15 +159,15 @@ margin-bottom: 110px;
 .pricing__info{
     display:flex;
     justify-content: space-between;
+    column-gap: 30px;
 }
 .rate{
-    max-width:370px;
     width: calc((100% - 60px) /3);
 }
-.description{
+.rate__description{
     background-color: #333333;
 }
-.rate__description__title {
+.rate__title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size:24px;
@@ -186,7 +186,7 @@ margin-bottom: 110px;
     line-height: 42px;
     padding: 29px 0;
 }
-.rate__descripton__info{
+.rate__info{
     font-family:'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -205,7 +205,7 @@ margin-bottom: 110px;
     padding: 15px 0 14px;
     color:#86878B;
     list-style-type: none;
-    border: 2px solid #F5F5F5;
+    border: 1px solid #F5F5F5;
     text-transform: capitalize; 
 }
 .rate_popular{
