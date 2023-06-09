@@ -44,7 +44,7 @@ margin: auto;
 }
 
 .offer__info {
-    width: 59%;
+    width: 60%;
     padding: 55px 30px 54px 100px;
 }
 
@@ -55,7 +55,7 @@ margin: auto;
 .offer__title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 41px;
+    line-height: 40px;
     color: #000000;
     margin-bottom: 57px;
 }
@@ -168,4 +168,100 @@ margin: auto;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+}
+
+/* Styles pricing */
+
+.pricing {
+    padding: 82px 0;
+    background: #F5F5F5;
+}
+
+.pricing__title {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+.pricing__subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #86878B;
+    margin-bottom: 79px;
+}
+
+.pricing__tables {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.pricing__table {
+    width: calc((100% - 60px) / 3);
+    /* or width: 100%; ???? */
+    border-collapse: collapse;
+    background: #FFFFFF;
+    padding: 1px;
+}
+
+.pricing__table-active {
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+    margin: -20px 0 20px;
+}
+
+
+.table__item {
+    border: 2px solid #F5F5F5;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #86878B;
+}
+
+.table__title {
+    background: #333333;
+}
+
+.table__title__text {
+    padding: 14px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.table__price {
+    background: #333333;
+}
+
+.table__price__text {
+    padding: 29px 0;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.table__item-first {
+    background: #333333;
+}
+
+.table__item-first__text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
 }
