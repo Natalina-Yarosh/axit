@@ -44,7 +44,7 @@
 
 .tab__content {
     width: 60%;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 55px 30px 54px 100px;
 }
 .tab__effect-title{
@@ -86,8 +86,8 @@
     cursor:pointer;
 } 
 .tab__wrap-image{
-    width: 60%;
-    display: inline-block;
+    width: 40%;
+    /* display: inline-block; */
 }
 .tab__image {
     height: 100%;
@@ -122,11 +122,13 @@
 .awesome__benefit{
     display:flex;
     justify-content: space-between;
+    column-gap: 27px;
 }
 .benefit__block{
     /* max-width: 371px;
     margin-right: 27px; */
-    width:calc((100%-54px)/3);
+    /* width:calc((100%-54px)/3); */
+    flex: 1 0;
 }
 .benefit__block:last-of-type{
     margin-right: 0px;
@@ -171,13 +173,13 @@
 .price__items {
     display:flex;
     justify-content: space-between;
+    column-gap: 30px;
 }
-.price__item{
-    max-width: 370px;
-    width:calc((100%-60px)/3);
+.price__item {
     text-decoration: none;
-
+    flex:1 0;
 }
+
 .item {
     list-style: none;
     border:1px solid #F5F5F5;
