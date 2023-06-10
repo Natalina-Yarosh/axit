@@ -11,6 +11,12 @@
     margin: 0 auto;
     max-width: 1202px;
 }
+
+.transitions__tabs{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .transitions__tab_active {
     max-width: 202px;
     border: 1px solid #C6CBCD;
@@ -33,6 +39,8 @@
 
 .transitions__content{
     border: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: flex-end;
 }
 .transitions__info{
     width: 60%;
@@ -78,7 +86,7 @@ p:last-child{
 }
 .transitions__wrap-image{
     display: inline-block;
-    max-width: 38%;
+    max-width: 40%;
 }
 .transitions__img{
     width: 100%;
