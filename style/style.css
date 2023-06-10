@@ -110,15 +110,19 @@ p:last-child{
     margin-bottom: 92px;
     font-family: 'Raleway', sans-serif;
 }
+
+.advantages__box{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 27px;
+}
+
 .advantage {
-    display: inline-block;
     max-width: 354px;
-    margin-right: 28px;
     vertical-align: top;
 }
 .advantage:last-child {
     margin-right: 0;
-
 }
 .advantage__wrap{
     margin: 0 auto 24px;
