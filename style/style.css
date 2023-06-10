@@ -149,12 +149,13 @@ p:last-child{
     margin-bottom: 110px;
     text-align: center;
     background: #F5F5F5;
+    padding-top: 82px;
+    padding-bottom: 83px;
 }
 .pricing__title{
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    padding-top: 82px;
     margin-bottom: 40px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -170,7 +171,6 @@ p:last-child{
 .pricing__box{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 83px;
 }
 .pricing__options{
     width: calc((100% - 60px) /2);
