@@ -89,7 +89,7 @@ margin-bottom: 110px;
     padding: 0 16px;
     margin: 0 auto;
 }
-.awesome__title {
+.title {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -97,13 +97,13 @@ margin-bottom: 110px;
     font-weight: 400;
     line-height: 42px;
 }
-.awesome__line {
+.line {
     width: 170px;
     height: 0;
     border-top: 1px solid #EC7979;
     margin: 0 auto 40px;
 }
-.awesome__desc{
+.desc{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin-bottom: 92px;
@@ -114,11 +114,11 @@ margin-bottom: 110px;
 .group {
     display: flex;
     justify-content: center;
+    column-gap: 28px;
 }
 
 .group__item{
-    max-width:370px;
-   margin-right: 28px;
+flex:1 0;
 }
 .item:last-child{
     margin-right:0;
@@ -145,4 +145,70 @@ margin-bottom: 110px;
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+}
+
+.pricing{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding:82px 0 83px;
+    margin-bottom: 107px;
+}
+.pricing__desc{
+    margin-bottom: 79px;
+}
+.pricing__info{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.rate{
+    width: calc((100% - 60px) /3);
+}
+.rate__description{
+    background-color: #333333;
+}
+.rate__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:24px;
+    line-height: 32px;
+    padding: 14px 0;
+    color:#FFFFFF;
+}
+.price{
+    border: 2px solid #F5F5F5;
+    border-right: 0;
+    border-left:0;
+    color:#FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 29px 0;
+}
+.rate__info{
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 0 14px;
+    color:rgb(255, 255, 255,0.5);
+}
+.rate__items{
+    background-color: #FFFFFF;
+}
+.rate__item {
+   font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 0 14px;
+    color:#86878B;
+    list-style-type: none;
+    border: 1px solid #F5F5F5;
+    text-transform: capitalize; 
+}
+.rate_popular{
+    transform: translate(0,-20px);
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
 }
