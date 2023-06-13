@@ -235,7 +235,7 @@
 
 }
 
-.option__item-box {
+.option__box {
     width: 100%;
     background-color: #333333;
 
@@ -243,7 +243,7 @@
 }
 
 
-.option__item-title {
+.option__title {
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -254,7 +254,7 @@
 
 }
 
-.option__item-price {
+.option__price {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
