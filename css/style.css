@@ -100,6 +100,13 @@
     background: #ec7979;
     border: none;
 }
+.tab__btn:hover {
+    background: #AB4949;
+}
+.tab__btn:active {
+    background: #ec7979;
+    box-shadow: inset 0 0 10px #AB4949;
+}
 
 .tab__wrap-img {
     width: 40%;
@@ -122,14 +129,20 @@
     font-weight: 400;
     line-height: 42px;
     text-transform: uppercase;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 80px auto;
     text-align: center;
+    position: relative;
+
 }
 
-.separator {
+.title::after {
+    display: block;
+    content: '';
     border-bottom: 1px solid #ec7979;
     width: 170px;
-    margin: 0 auto 40px;
+    position: absolute;
+    left: calc(50% - 85px);
+    top: calc(100% + 40px);
 }
 
 .subtitle {
@@ -282,18 +295,21 @@
     padding: 38px 25px 37px;
     background: #E2E2E2;
     border-radius: 10px;
+    position: relative;
+    margin-bottom: 66px;
 }
-
-.review_triangle {
-    margin: 0 0 46px 70px;
+.review__text::after{
     content: '';
+    position: absolute;
     left: 70px;
+    top: 100%;
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 30px solid #E2E2E2;
 }
+
 
 .bio {
     display: flex;
@@ -308,6 +324,8 @@
 .bio__image {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .bio__info {
@@ -336,27 +354,30 @@
 }
 
 .interlayer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 70px 0;
+    position: relative;
+}
+
+.interlayer::before {
     background-image: url("/img/interlayer/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 70px 0;
-}
-
-/*I don't know how to make it work but in future...*/
-.interlayer::before {
     content: '';
-    background: rgba(78, 78, 78, 0.5);
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
 
 .interlayer__title {
     color: #FFFFFF
 }
 
-.interlayer__separator {
-    border: 1px solid #FFFFFF;
+.interlayer__title::after {
+    border-color: #FFFFFF;
 }
 
 .interlayer__subtitle {
