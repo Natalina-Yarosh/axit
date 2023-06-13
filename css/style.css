@@ -223,7 +223,7 @@ margin: auto;
     top: -20px;
 }
 
-.pricing__list-item {
+.pricing__list_item {
     border: 1px solid #F5F5F5;
     text-align: center;
     padding: 15px 0;
@@ -236,19 +236,18 @@ margin: auto;
     background: #FFFFFF;
 }
 
-.pricing__item-title {
+.pricing__item_title {
     background: #333333;
+    font-family: 'Open Sans', sans-serif;
     padding: 14px 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    text-transform: capitalize;
     color: #FFFFFF;
 }
 
-.pricing__item-price {
+.pricing__item_price {
     padding: 29px 0;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -256,11 +255,7 @@ margin: auto;
     background: #333333;
 }
 
-.pricing__item-first {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+.pricing__item_first {
     color: rgba(255, 255, 255, 0.5);
     background: #333333;
 }
