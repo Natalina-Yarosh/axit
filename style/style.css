@@ -101,9 +101,15 @@
     color: #FFFFFF;
     cursor:pointer;
 } 
+.tab__btn:hover{
+    background: #AB4949;
+}
+.tab__btn:active{
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;     
+}
 .tab__wrap-image{
     width: 40%;
-    /* display: inline-block; */
 }
 .tab__image {
     height: 100%;
@@ -122,10 +128,6 @@
     position:relative;
 
 }
-/* .separator{
-    width:170px;
-    border-bottom: 1px solid #EC7979;
-    margin:0 auto 40px; */
 
 .subtitle{
     color:#86878B;
@@ -178,6 +180,7 @@
 }
 
 /* блок price */
+
 .price{
     margin-bottom: 118px;
     background-color: #F5F5F5;
@@ -188,8 +191,8 @@
     display:flex;
     justify-content: space-between;
     column-gap: 30px;
-    
 }
+
 .price__list {
     flex:1 0;
 }
@@ -227,10 +230,6 @@
 .price__item_advantage{
     padding: 15px 0 14px 0;
     background-color: #333333;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
     color: rgba(255, 255, 255, 0.5);}
 
 .price__list:hover{
@@ -253,6 +252,7 @@
 }
 .customer__data{
     display:flex;
+    column-gap: 38px;
 }
 .customer__title{
     text-align: center;
@@ -272,20 +272,20 @@
     right:calc(50% - 85px);
     top:calc(100% + 40px);
 }
-
-.customer__text{
+.customer__description{
     background-color: #E2E2E2;
     border-radius: 10px;
     padding:38px 25px 37px 25px;
+    position:relative;
+    margin-bottom: 66px;
+}
+.customer__text{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    /* or 117% */
     color: #86878B;
-    margin-bottom: 66px;
-    position:relative;
 }
 .customer__img {
     height: 100%;
@@ -299,13 +299,14 @@
     overflow: hidden;
 }
 .customer__name{
-    position:relative;
+    /* position:relative;
     left:30px;
     flex-direction:column;
     justify-content:space-between;
-    display:flex;
+    display:flex; */
+
 }
-.customer__text::after{
+.customer__description::after{
     position:absolute;
     content: "";
     display:block;
@@ -325,6 +326,7 @@ font-size: 24px;
 line-height: 30px;
 align-items: center;
 text-transform: capitalize;
+margin-bottom:18px;
 }
 .customer__prof{
     font-family: 'Raleway';
