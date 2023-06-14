@@ -164,7 +164,7 @@
     padding-bottom: 83px;
 }
 
-.subtitle {
+.pricing_description {
     margin-bottom: 59px;
 }
 
@@ -193,6 +193,7 @@
     font-family: "Raleway", sans-serif;
     padding: 10px;
     border: 1px solid #f5f5f5;
+    text-align: center;
 }
 
 .pricing__item_desc {
@@ -204,7 +205,6 @@
     font-family: "Open Sans", sans-serif;
     padding: 15px;
     border: 1px solid #f5f5f5;
-    text-align: center;
 }
 .pricing__item_price {
     font-weight: 700;
@@ -215,7 +215,6 @@
     color: #ffffff;
     border: 1px solid #f5f5f5;
     padding: 20px;
-    text-align: center;
 }
 .pricing__item_life{
     background: #333333;
@@ -226,5 +225,4 @@
     font-family: "Raleway", sans-serif;
     border: 1px solid #f5f5f5;
     padding: 10px;
-    text-align: center;
 }
