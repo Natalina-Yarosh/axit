@@ -63,8 +63,7 @@ body {
     display: block;
     position: absolute;
     bottom: -2px;
-    width: 201px;
-    height: 0px;
+    width: 100%;
     border-bottom: 4px solid white;
 }
 
@@ -153,16 +152,21 @@ body {
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    position: relative;
 }
 
-.title::after {
+.title::before {
     content: "";
     width: 170px;
-    height: 0px;
+    height: 1px;
     display: block;
-    border-bottom: 1px solid var(--main-color);
-    margin: 40px auto 0;
+    position: absolute;
+    background-color: var(--main-color);
+    margin: 0 auto;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px);
 }
 
 .border {
@@ -241,7 +245,6 @@ body {
     margin-bottom: 0;
     line-height: 33px;
     padding: 12px 0;
-    border-bottom: 2px solid #F5F5F5;
     color: #FFFFFF;
     border: 1px solid #F5F5F5;
 }
