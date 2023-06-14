@@ -9,6 +9,11 @@
     color: #000000;
 }
 
+:root {
+    --main-color: #EC7979;
+    --second-color: #AB4949;
+}
+
 body {
     background-color: #FFFFFF;
 }
@@ -53,12 +58,11 @@ body {
     position: relative;
 }
 
-.about__link_active:after {
+.about__link_active::before {
     content: "";
     display: block;
     position: absolute;
     bottom: -2px;
-    top: 134px;
     width: 201px;
     height: 0px;
     border-bottom: 4px solid white;
@@ -110,18 +114,18 @@ body {
 }
 
 .about__button {
-    background: #EC7979;
+    background: var(--main-color);
     color: #FFFFFF;
 }
 
 .about__button:hover {
-    background: #AB4949;
+    background: var(--second-color);
     transition: .5s;
 }
 
 .about__button:active {
-    background: #EC7979;
-    box-shadow: inset 0px 0px 10px #AB4949;
+    background: var(--main-color);
+    box-shadow: inset 0px 0px 10px var(--second-color);
 }
 
 .btn {
@@ -152,11 +156,21 @@ body {
     margin-bottom: 40px;
 }
 
+.title::after {
+    content: "";
+    width: 170px;
+    height: 0px;
+    display: block;
+    border-bottom: 1px solid var(--main-color);
+    margin: 40px auto 0;
+}
+
 .border {
     width: 170px;
     height: 0px;
-    border-bottom: 1px solid #EC7979;
+    border-bottom: 1px solid var(--main-color);
     margin: 0 auto 40px;
+    display: none;
 }
 
 .subtitle {
@@ -181,7 +195,7 @@ body {
 .item__icon {
     width: 91px;
     height: 91px;
-    border: 1px solid #EC7979;
+    border: 1px solid var(--main-color);
     border-radius: 50%;
     margin: 0 auto;
     display: flex;
