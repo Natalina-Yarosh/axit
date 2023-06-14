@@ -202,27 +202,17 @@
     font-size: 24px;
     line-height: 33px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     padding: 15px;
-    border: 1px solid #f5f5f5;
 }
 .pricing__item_price {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    font-family: "Raleway", sans-serif;
     background: #333333;
     color: #ffffff;
-    border: 1px solid #f5f5f5;
     padding: 20px;
 }
 .pricing__item_life{
     background: #333333;
     color: #ffffff80;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    font-family: "Raleway", sans-serif;
-    border: 1px solid #f5f5f5;
-    padding: 10px;
 }
