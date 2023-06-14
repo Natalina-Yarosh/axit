@@ -47,25 +47,42 @@
     max-width: 201px;
     width: 100%;
     text-align: center;
-    margin-bottom: -1px;
     cursor: pointer;
     padding: 10px 0;
+    text-decoration: none;
+    color: #333333;
+    position: relative;
 }
 
 .tabs__item_active {
-    border: 1px solid #c6cbcd;
+    border-top: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+    border-right: 1px solid #c6cbcd;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs__item_active:after, .tabs__item:hover:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 199px;
     border-bottom: 1px solid #fff;
-    border-radius: 5px 5px 0px 0px;
+    top: 100%;
 }
 
 .tabs__item:hover {
-    border: 1px solid #c6cbcd;
-    border-bottom: 1px solid #fff;
-    border-radius: 5px 5px 0px 0px;
+    border-top: 1px solid #c6cbcd;
+    border-left: 1px solid #c6cbcd;
+    border-right: 1px solid #c6cbcd;
+    border-radius: 5px 5px 0 0;
 }
 
 .tab {
     border: 1px solid #c6cbcd;
+    display: none;
+}
+
+.tab:target {
     display: flex;
 }
 
@@ -100,9 +117,11 @@
     background: #ec7979;
     border: none;
 }
+
 .tab__btn:hover {
     background: #AB4949;
 }
+
 .tab__btn:active {
     background: #ec7979;
     box-shadow: inset 0 0 10px #AB4949;
@@ -110,12 +129,13 @@
 
 .tab__wrap-img {
     width: 40%;
+    max-height: 501px;
 }
 
 .tab__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .container {
@@ -216,7 +236,6 @@
     padding: 14px 0 13px;
     background: #FFFFFF;
     border: 1px solid #F5F5F5;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -226,7 +245,6 @@
 .benefit__item_first {
     padding: 12px 0 11px;
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
@@ -236,9 +254,7 @@
 }
 
 .benefit__item_second {
-    font-family: 'Raleway', sans-serif;
     padding: 27px 0 27px;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -247,10 +263,6 @@
 }
 
 .benefit__item_third {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
     background: #333333;
     color: rgba(255, 255, 255, 0.5);
     padding: 13px 0 12px;
@@ -268,7 +280,8 @@
 }
 
 .reviews {
-    padding: 107px 0;
+    padding: 107px 0 0;
+    margin-bottom: 107px;
 }
 
 .reviews__subtitle {
@@ -298,7 +311,8 @@
     position: relative;
     margin-bottom: 66px;
 }
-.review__text::after{
+
+.review__text::after {
     content: '';
     position: absolute;
     left: 70px;
@@ -317,21 +331,21 @@
 
 .bio__image-wrap {
     margin-right: 30px;
-    max-width: 70px;
-    max-height: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .bio__image {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
 }
 
 .bio__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
 }
 
 .bio__name {
@@ -342,6 +356,7 @@
     line-height: 30px;
     text-transform: capitalize;
     color: #000000;
+    margin-bottom: 18px;
 }
 
 .bio__position {
@@ -386,10 +401,21 @@
 }
 
 .interlayer__btn {
-    line-height: 24px;
+    line-height: 25px;
     max-width: 370px;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     display: block;
     margin: 0 auto;
+}
+
+.interlayer__btn:hover {
+    border-color: #EC7979;
+    color: #EC7979;
+}
+
+.interlayer__btn:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #FFFFFF;
 }
