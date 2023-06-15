@@ -290,7 +290,7 @@
 .customer__img {
     height: 100%;
     width:100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 .customer__wrap-img{
     width: 70px;
@@ -324,7 +324,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 30px;
-align-items: center;
+/* align-items: center; */
 text-transform: capitalize;
 margin-bottom:18px;
 }
