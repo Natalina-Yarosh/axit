@@ -234,6 +234,7 @@
 .reviews{
     text-align: center;
     margin-bottom: 110px;
+
 }
 
 .reviews__slogan{
@@ -248,6 +249,10 @@
 .reviews_box{
     display: flex;
     column-gap: 30px;
+}
+
+.review{
+    flex: 1 0;
 }
 
 .review__text{
@@ -291,7 +296,7 @@
 .person__img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .person__item_info{
