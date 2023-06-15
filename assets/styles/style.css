@@ -189,6 +189,7 @@
 .pricing {
     background-color: #F5F5F5;
     padding: 82px 0;
+    margin-bottom: 107px;
 }
 
 
@@ -284,4 +285,94 @@
     font-size: 18px;
     line-height: 21px;
     padding: 15px 0 14px;
+}
+
+.customers {
+    margin-bottom: 107px;
+}
+
+.customers__tittle {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.customers__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 59px;
+    color: #86878B;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    column-gap: 30px;
+}
+
+.reviews__item {
+    max-width: 370px;
+}
+
+.reviews__box {
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    padding: 38px 25px 37px 25px;
+    position: relative;
+    margin-bottom: 66px;
+}
+
+.reviews__box:after {
+    content: '';
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    bottom: -20px;
+    left: 70px;
+    z-index: 1;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+}
+
+.reiews__description {
+    text-align: center;
+}
+
+.customer {
+    display: flex;
+    column-gap: 30px;
+}
+
+.customer__name {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.customer__profession {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.customer__foto__box {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.customer__foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
