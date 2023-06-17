@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1204px;
+    padding: 0 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+.awesome{
+    margin-bottom: 110px;
+}
+.awesome__title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.awesome__line{
+    margin-bottom: 40px;
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+.awesome__discription{
+    margin-bottom: 92px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+.advantages__block{
+    max-width: 371px;
+    display: inline-block;
+    margin-right: 24px;
+}
+.advantages__wrap-image{
+    border: 1px solid #EC7979;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+}
+.advantages__subtitle{
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+.advantages__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.advantages__image{
+    height: 100%;
+    width: 100%;
+    object-fit: none; 
+}
+.advantages__block:last-child{
+    margin-right: 0px;
+}
+.tabs{
+    margin-bottom: 118px;
+}
+.container__tabs{
+    max-width: 1202px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.tabs__item{
+    display: inline-block;
+    text-align: center;
+    max-width: 184px;
+    width: 100%;
+    font-family: 'Open_Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid transparent;
+    border-bottom: none;
+}
+.tabs__item_active{
+    max-width: 203px;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+}
+.box{
+    border: 1px solid #C6CBCD;
+}
+.box__content{
+    width: 59%;
+    display: inline-block;
+    padding: 55px 29px 54px 100px;
+}
+.box_wrap-image{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.box__title{
+    margin-bottom: 57px;
+    font-family: 'Open_Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+.box__text{
+    margin-bottom: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.box__text:last-child{
+    margin: 0;
+}
+.box__image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box__btn{
+    background: #EC7979;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    max-width: 270px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+.box__texts{
+    margin-bottom: 54px;
+}
+.pricing{
+    text-align: center;
+    background: #F5F5F5;
+    max-width: 1204px;
+    padding: 82px 16px 83px;
+    margin: 0 auto;
+
+}
+.pricing__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.pricing__line{
+    margin-bottom: 40px;
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+.pricing__discription{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-bottom: 59px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_list{
+    list-style: none;
+    text-align: center;
+}
+.wrapper_item{
+    border: 2px solid #F5F5F5;
+    background: #FFFFFF;
+    width: 370px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 50px;
+    padding: 15px 0 14px;
+}
+li:nth-child(2) {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    height: 100px;
+    padding: 26px 0 23px;
+    
+}
+li:nth-child(-n+3) {
+    background: #333333;
+    color: #FFFFFF;
+}
+li:first-child {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 6px 0 5px;
+}
+.wrapper__col:nth-child(2) {
+    margin-top: -20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
