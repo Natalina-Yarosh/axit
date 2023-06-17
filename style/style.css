@@ -46,6 +46,7 @@
     padding: 0 15px;
     margin: 0 auto;
     max-width: 1202px;
+    position: relative;
 }
 
 .transitions__tabs{
@@ -119,6 +120,7 @@
     font-size: 18px;
     line-height: 26px;
     font-family: 'Open Sans', sans-serif; 
+    cursor: pointer
 }
 .transitions__wrap-image{
     display: inline-block;
@@ -187,7 +189,7 @@
 .advantage__img{
     height: 100%;
     width: 100%;
-    object-fit: none;
+    object-fit: scale-down;
 }
 .advantage__title{
     font-weight: 700;
@@ -354,4 +356,65 @@
     font-size: 18px;
     line-height: 21px;
     font-family: 'Raleway', sans-serif;
+}
+
+.design{
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url(../img/city-background.jpg) center / cover no-repeat;
+    position: relative;
+}
+
+.design::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title__design{
+    color: #FFFFFF;
+    position: relative;
+}
+
+.title__design::before {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    position: absolute;
+    left: calc(50% - 85px);
+    top: calc(100% + 40px);
+}
+
+.design__slogan{
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.design__button{
+    max-width: 270px;
+    width: 100%;
+    padding: 16px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif; 
+    cursor: pointer;
+    background-color: transparent;
 }
