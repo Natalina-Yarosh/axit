@@ -170,6 +170,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 27px;
+    flex-wrap: wrap;
 }
 
 .advantage {
@@ -224,6 +225,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    flex-wrap: wrap;
 }
 .pricing__options{
     margin-top: 20px;
@@ -287,6 +289,7 @@
 .reviews_box{
     display: flex;
     column-gap: 30px;
+    flex-wrap: wrap;
 }
 
 .review{
@@ -360,7 +363,6 @@
 
 .design{
     text-align: center;
-    margin-bottom: 70px;
     padding-top: 70px;
     padding-bottom: 70px;
     background: url(../img/city-background.jpg) center / cover no-repeat;
@@ -417,4 +419,32 @@
     font-family: 'Open Sans', sans-serif; 
     cursor: pointer;
     background-color: transparent;
+}
+
+.footer{
+    background: #000000;
+    text-align: center;
+}
+
+.footer__messinger{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    padding-top: 42px;
+    column-gap: 31px;
+}
+
+.footer__icon{
+    min-width: 53px;
+    align-self: center;
+}
+
+.footer__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 27px;
 }
