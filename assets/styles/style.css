@@ -217,6 +217,7 @@
     justify-content: space-between;
     column-gap: 45px;
     align-items: center;
+    list-style-type: none;
 }
 
 .social-media__icon:hover path {
@@ -611,6 +612,7 @@
     justify-content: center;
     column-gap: 45px;
     margin-bottom: 34px;
+    list-style-type: none;
 }
 
 .footer__icon:hover {
