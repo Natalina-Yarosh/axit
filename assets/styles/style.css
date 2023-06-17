@@ -6,6 +6,149 @@
     font-weight: 400;
 }
 
+.header__menu {
+    background-color: #000000;
+    color: #fff;
+
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1202px;
+    padding: 0 16px;
+    margin: 0 auto;
+    height: 75px;
+}
+
+.header__baner {
+
+    background: url(../img/glfon.png) center / cover no-repeat;
+    padding: 305px 15px 105px;
+    position: relative;
+    z-index: -2;
+
+}
+
+.heder__content {
+    width: 55%;
+}
+
+.header__baner::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+}
+
+.logo {
+    margin-bottom: 72px;
+}
+
+.header__tittle {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.header__separator {
+    width: 170px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 42px;
+
+}
+
+.heder__description {
+    max-width: 270px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    margin-bottom: 42px;
+}
+
+.header__btn {
+
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+.menu {
+
+    list-style: none;
+    display: flex;
+
+}
+
+.menu__item {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    text-align: center;
+    width: 113px;
+}
+
+.menu__link {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__media {
+    background: #F8EFEF;
+    padding: 32px 0 18px;
+    margin-bottom: 100px;
+}
+
+.media__tittle {
+    margin-bottom: 16px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.media__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.header__media__container {
+    max-width: 1202px;
+    padding: 0 16px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.media__container {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    column-gap: 30px;
+}
+
+.media__box {
+    display: inline-block;
+    width: 40%;
+}
+
+
 .tabs {
     margin-bottom: 75px;
 }
@@ -87,20 +230,26 @@
 
 }
 
-.tab__btn {
+
+
+.btn {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
     max-width: 270px;
     width: 100%;
-    background-color: #ec7979;
-    border: 1px solid #ec7979;
     color: #ffffff;
     padding: 16px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
+}
+
+.tab__btn {
+    background-color: #ec7979;
+    border: 1px solid #ec7979;
+
 }
 
 .tab__img {
@@ -379,4 +528,93 @@
     height: 100%;
     object-fit: cover;
 
+}
+
+.design {
+
+    background: url(../img/fon.jpg) center right / cover no-repeat;
+    padding: 70px 15px;
+    position: relative;
+    z-index: -2;
+    margin-bottom: 70px;
+}
+
+.design::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+}
+
+.design__container {
+    text-align: center;
+}
+
+.design__tittle {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+}
+
+.design__separator {
+    width: 170px;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 auto 40px;
+}
+
+.design__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 79px;
+    color: #fff;
+
+}
+
+
+.design__btn {
+    margin: 0 auto;
+    border: 1px solid #fff;
+
+}
+
+footer {
+    background-color: #000000;
+    padding: 35px 15px 27px 15px;
+}
+
+.messengers__container {
+    margin-bottom: 28px;
+    justify-content: center;
+    display: flex;
+    column-gap: 32px;
+}
+
+.messengers__link {
+
+    width: 53px;
+    height: 53px;
+    position: relative
+}
+
+.messengers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.developer {
+
+    color: hsla(0, 0%, 100%, 0.5);
+    text-align: center;
 }
