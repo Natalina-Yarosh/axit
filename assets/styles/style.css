@@ -313,11 +313,11 @@
     column-gap: 30px;
 }
 
-.reviews__item {
+.review {
     flex: 1 0;
 }
 
-.reviews__box {
+.review__box {
     background-color: #E2E2E2;
     border-radius: 10px;
     padding: 38px 25px 37px 25px;
@@ -325,7 +325,7 @@
     margin-bottom: 66px;
 }
 
-.reviews__box:after {
+.review__box:after {
     content: '';
     width: 0;
     height: 0;
@@ -339,7 +339,7 @@
     border-top: 20px solid #E2E2E2;
 }
 
-.reiews__description {
+.reiew__description {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -347,12 +347,12 @@
     color: #86878B;
 }
 
-.customer {
+.review__customer {
     display: flex;
     column-gap: 30px;
 }
 
-.customer__name {
+.review__name {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -361,20 +361,20 @@
     margin-bottom: 18px;
 }
 
-.customer__profession {
+.review__profession {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
 
-.customer__foto__box {
+.review__foto-box {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.customer__foto {
+.review__foto {
     width: 100%;
     height: 100%;
     object-fit: cover;
