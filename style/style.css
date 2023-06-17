@@ -6,28 +6,31 @@
 
 .header{
     background: #000000;
-    padding: 22px 120px;
+    padding: 22px;
 }
 
-.header_container{
+.header__container{
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1240px;
+
 }
 
-.header_items{
+.header__items{
    display: flex;
    flex-wrap: wrap;
 }
 
-.header_item{
+.header__item{
     list-style: none;
-    width: 114px;
+    min-width: 114px;
     text-align: center;
 }
 
-.header_link{
+.header__link{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
