@@ -21,14 +21,13 @@
 
 .header {
     background-color: #000000;
-    padding: 22px 107px 22px 137px;
+    padding: 22px 0;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
 }
 
 .menu__items {
@@ -37,9 +36,8 @@
 
 .menu__item {
     list-style: none;
-    width: 114px;
-    display: flex;
-    justify-content: center;
+    min-width: 114px;
+    text-align: center;
 }
 
 .menu__link {
@@ -55,7 +53,7 @@
 
 .banner {
     background: url("../img/banner_img/bg.jpg") top right / cover no-repeat;
-    padding: 306px 99px 185px 170px;
+    padding: 306px 0 185px;
     position: relative;
 }
 
@@ -80,6 +78,8 @@
 }
 
 .banner__title {
+    max-width: 670px;
+    width: 100%;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
@@ -101,9 +101,7 @@
 }
 
 .banner__text {
-    display: block;
     max-width: 270px;
-    width: 100%;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -568,6 +566,10 @@
     color: #FFFFFF;
 }
 
+.contact {
+    margin-bottom: 50px;
+}
+
 .contact__btn {
     width: 370px;
     background: #EC7979;
@@ -576,7 +578,6 @@
     margin: 0 auto;
     align-self: center;
     display: block;
-    margin-bottom: 50px;
 
 }
 
@@ -588,11 +589,17 @@
 .footer__items {
     display: flex;
     justify-content: center;
-    gap: 44px;
+    gap: 32.8px;
     margin-bottom: 32px;
     list-style: none;
 }
-
+.footer__item {
+    width: 53.2px;
+    height: 53.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer__item:hover path, .icons__item:hover path {
     fill: #ec7979;
 }
