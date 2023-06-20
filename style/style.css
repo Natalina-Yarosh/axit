@@ -6,7 +6,7 @@
 
 .header{
     background: #000000;
-    padding: 22px;
+    padding: 22px 0px;
 }
 
 .header__container{
@@ -424,19 +424,22 @@
 .footer{
     background: #000000;
     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 27px;
 }
 
 .footer__messinger{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 32px;
-    padding-top: 42px;
     column-gap: 31px;
+    margin-bottom: 32.23px;
+    list-style-type: none;
 }
 
 .footer__icon{
-    min-width: 53px;
+    min-width: 53.2px;
+    height: 53.2px;
     align-self: center;
 }
 
@@ -446,5 +449,4 @@
     line-height: 21px;
     font-family: 'Raleway', sans-serif;
     color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 27px;
 }
