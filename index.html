@@ -55,12 +55,13 @@
 
         </div>
         <div class="form">
-            <form action="">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Password">
+            <h2 class="form__title">Try Your <span class="form__title-span">FREE</span> Trial Today</h2>
+            <form class="form__wrap" action="">
+                <input class="form__input" type="text" placeholder="Name">
+                <input class="form__input" type="email" placeholder="Email">
+                <input class="form__input" type="password" placeholder="Password">
+                <button type="submit" class="btn form__btn">Get Started</button>
             </form>
-            <button class="btn form__btn">Get Started</button>
         </div>
     </div>
 </section>
@@ -349,7 +350,16 @@
         <p class="subtitle awesom__subtitle">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-        <button class="btn contact__btn">Send Message</button>
+        <form class="contact-form" action="" id="contact-form">
+            <div class="contact-form__wrap">
+                <input type="text" class="contact-form__input" placeholder="Name">
+                <input type="email" class="contact-form__input" placeholder="Email">
+                <input type="password" class="contact-form__input" placeholder="Password">
+            </div>
+            <textarea type="text" class="contact-form__input contact-form__input_textarea" placeholder="Message"></textarea>
+
+        </form>
+        <button type="submit" form="contact-form" class="btn contact__btn">Send Message</button>
 
     </div>
 </section>
