@@ -130,7 +130,7 @@
 .social {
     background: #F8EFEF;
     margin-bottom: 100px;
-    padding: 32px 182px 18px 170px;
+    padding: 32px 0 18px;
 }
 
 .social_container {
@@ -138,13 +138,16 @@
     gap: 49px;
     align-items: center;
 }
+.social__info {
+    max-width: 470px;
+    width: 100%;
+}
 
 .social__title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    display: flex;
     text-transform: capitalize;
     color: #333333;
     margin-bottom: 16px;
@@ -161,10 +164,17 @@
 
 .icons {
     display: flex;
-    gap: 44px;
+    gap: 30px;
     align-items: center;
     list-style: none;
 
+}
+.icons__item {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tabs {
@@ -208,7 +218,7 @@
     display: block;
     position: absolute;
     content: '';
-    width: 199px;
+    width: 100%;
     border-bottom: 1px solid #fff;
     top: 100%;
 }
@@ -261,11 +271,11 @@
     border: none;
 }
 
-.tab__btn:hover {
+.tab__btn:hover, .contact__btn:hover {
     background: #AB4949;
 }
 
-.tab__btn:active {
+.tab__btn:active, .contact__btn:active {
     background: #ec7979;
     box-shadow: inset 0 0 10px #AB4949;
 }
