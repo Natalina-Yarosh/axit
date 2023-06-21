@@ -8,7 +8,7 @@
     background-color: #000000;
 }
 
-.header__wrap {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +21,8 @@
 
 .nav__item {
     padding: 28px;
+    min-width: 114px;
+    text-align: center;
 }
 
 .nav__item__link {
@@ -83,15 +85,11 @@
 .axit__title::after {
     content: '';
     position: absolute;
-    display: flex;
+    display: block;
     width: 170px;
     height: 0;
     border-top: 1px solid #FFFFFF;
     top: calc(100% + 55px);
-}
-
-.axit__description {
-    max-width: 270px;
 }
 
 .axit__text {
@@ -101,6 +99,7 @@
     line-height: 21px;
     color: #FFFFFF;
     margin-bottom: 42px;
+    max-width: 270px;
 }
 
 .axit__button {
@@ -120,15 +119,11 @@
     background: #FFFFFF;
     border-radius: 10px;
     max-width: 470px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    row-gap: 75px;
     align-self: center;
+    padding-top: 36px;
 }
 
 .registration__info {
-    padding-top: 36px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -136,6 +131,8 @@
     text-transform: uppercase;
     color: #333333;
     text-align: center;
+    margin-bottom: 75px;
+    padding: 0 50px;
 }
 
 .registration__info_selected {
@@ -144,10 +141,10 @@
 
 .input-box {
     padding: 0 50px;
+    margin-bottom: 75px;
 }
 
 .input-box__item {
-    max-width: 370px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -215,9 +212,17 @@
 .social-media__icons {
     display: flex;
     justify-content: space-between;
-    column-gap: 45px;
+    column-gap: 30px;
     align-items: center;
     list-style-type: none;
+}
+
+.social-media__icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-media__icon:hover path {
@@ -610,9 +615,17 @@
 .footer__icons {
     display: flex;
     justify-content: center;
-    column-gap: 45px;
+    column-gap: 32px;
     margin-bottom: 34px;
     list-style-type: none;
+}
+
+.footer__icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__icon:hover {
