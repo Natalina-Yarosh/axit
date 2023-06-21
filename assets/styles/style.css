@@ -7,10 +7,10 @@
 
 .header {
     background-color: #000000;
-    padding: 22px 170px 22px 170px;
+    padding: 22px 22px;
 }
 
-.header__container {
+.header__container {    
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -252,6 +252,9 @@
     background: #333333;
     color: #ffffff80;
 }
+.stylish__container{
+    position: relative;
+}
 
 .stylish{
     background: url(/assets/images/city.png);
@@ -261,7 +264,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    z-index: -1;
 }
 
 .stylish::before{
@@ -272,14 +274,11 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -2;
 }
 .stylish__btn{
     box-sizing: border-box;
     margin: 0 auto;
     border: 2px solid #FFFFFF;
-    width: 370px;
-    height: 58px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -287,6 +286,9 @@
     line-height: 25px;
     background-color: transparent;
     color: white;
+    max-width: 370px;
+    width: 100%;
+    padding: 16px;
 }
 
 .border__stylish{
