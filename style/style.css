@@ -393,8 +393,9 @@
     border: 1px solid #FFFFFF;
     margin: 0 auto;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);
+    transform: translate(-50%, 40px);
+    left: 50%;
+    top: 100%;
 }
 
 .design__slogan{
@@ -438,9 +439,11 @@
 }
 
 .footer__icon{
-    min-width: 53.2px;
+    width: 53.2px;
     height: 53.2px;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__text{
