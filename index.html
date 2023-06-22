@@ -57,9 +57,11 @@
         <div class="form">
             <h2 class="form__title">Try Your <span class="form__title-span">FREE</span> Trial Today</h2>
             <form class="form__wrap" action="">
-                <input class="form__input" type="text" placeholder="Name">
-                <input class="form__input" type="email" placeholder="Email">
-                <input class="form__input" type="password" placeholder="Password">
+                <div class="form__input-wrap">
+                    <input class="form__input" type="text" placeholder="Name">
+                    <input class="form__input" type="email" placeholder="Email">
+                    <input class="form__input" type="password" placeholder="Password">
+                </div>
                 <button type="submit" class="btn form__btn">Get Started</button>
             </form>
         </div>
@@ -145,7 +147,7 @@
             <a href="#text2" class="tabs__item">tab 2</a>
             <a href="#text3" class="tabs__item">tab 3</a>
         </div>
-        <div class="tab" id=text1>
+        <article class="tab" id=text1>
             <div class="tab__content">
                 <h2 class="tab__title">Tabs with soft transitioning effect.</h2>
                 <div class="tab__wrap">
@@ -161,8 +163,8 @@
                 <img src="img/tabs/independence_statue.jpg" alt="Tabs with soft transitioning effect."
                      class="tab__image">
             </div>
-        </div>
-        <div class="tab" id=text2>
+        </article>
+        <article class="tab" id=text2>
             <div class="tab__content">
                 <h2 class="tab__title">2 Tabs with soft transitioning effect.</h2>
                 <div class="tab__wrap">
@@ -178,8 +180,8 @@
                 <img src="img/tabs/2.jpeg" alt="Tabs with soft transitioning effect."
                      class="tab__image">
             </div>
-        </div>
-        <div class="tab" id=text3>
+        </article>
+        <article class="tab" id=text3>
             <div class="tab__content">
                 <h2 class="tab__title">3 Tabs with soft transitioning effect.</h2>
                 <div class="tab__wrap">
@@ -195,7 +197,7 @@
                 <img src="img/tabs/3.jpeg" alt="Tabs with soft transitioning effect."
                      class="tab__image">
             </div>
-        </div>
+        </article>
     </div>
 </div>
 <section class="awesom">
@@ -356,7 +358,8 @@
                 <input type="email" class="contact-form__input" placeholder="Email">
                 <input type="password" class="contact-form__input" placeholder="Password">
             </div>
-            <textarea type="text" class="contact-form__input contact-form__input_textarea" placeholder="Message"></textarea>
+            <textarea type="text" class="contact-form__input contact-form__input_textarea"
+                      placeholder="Message"></textarea>
 
         </form>
         <button type="submit" form="contact-form" class="btn contact__btn">Send Message</button>
