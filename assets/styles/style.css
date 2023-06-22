@@ -67,6 +67,79 @@
 
 }
 
+.baner__container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.baner__form {
+    padding: 35px 0 0 0;
+    max-width: 450px;
+    background: #fff;
+    align-self: start;
+    border-radius: 10px;
+}
+
+.form__baner__input {
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin-bottom: 33px;
+
+}
+
+.form__baner__input:last-child {
+    margin-bottom: 75px;
+}
+
+.baner__form__wrap {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.baner__form__title {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.baner__form__title::before {
+    display: none;
+}
+
+.baner__form__title_color {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #EC7979;
+}
+
+.form__baner__btn {
+    background-color: #ec7979;
+    border: 1px solid #ec7979;
+    border-radius: 0 0 10px 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    width: 100%;
+    color: #ffffff;
+    padding: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
 .baner__content {
     width: 55%;
 }
@@ -140,7 +213,9 @@
     border: 1px solid #AB4949;
 }
 
-
+.baner__form {
+    width: 45%;
+}
 
 
 .media {
@@ -682,4 +757,82 @@ footer {
 
 .messengers__link:hover svg>path {
     fill: #86878B;
+}
+
+.contact {
+    margin-bottom: 66px;
+}
+
+.contact__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 79px;
+    text-align: center;
+
+
+}
+
+.form__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin-bottom: 50px;
+
+}
+
+.form__cont__input {
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+
+
+}
+
+
+.form__cont__input:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.form__data {
+    flex: 1 0;
+}
+
+.message {
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    flex: 1 0;
+    vertical-align: top;
+    resize: none;
+
+
+}
+
+
+
+.form__cont {
+    text-align: center;
+}
+
+.form__btn {
+    background-color: #ec7979;
+    border: 1px solid #ec7979;
+
+}
+
+.form__btn:hover {
+    background: #AB4949;
+
+}
+
+.form__btn:active {
+
+    background: #EC7979;
+
 }
