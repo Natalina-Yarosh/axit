@@ -61,7 +61,7 @@
 .baner {
 
     background: url(../img/glfon.png) center / cover no-repeat;
-    padding: 305px 15px 105px;
+    padding: 305px 0 105px;
     position: relative;
     z-index: 1;
 
@@ -87,7 +87,7 @@
     margin-bottom: 72px;
 }
 
-.baner__tittle {
+.baner__title {
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 48px;
@@ -97,14 +97,13 @@
     margin-bottom: 97px;
 }
 
-.baner__tittle::after {
+.baner__title::after {
     content: '';
     width: 170px;
     border-bottom: 1px solid #fff;
-    margin-bottom: 42px;
     position: absolute;
     left: 0;
-    bottom: -92px;
+    bottom: -55px;
 
 
 }
@@ -150,12 +149,37 @@
     margin-bottom: 100px;
 }
 
-.media__tittle {
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 80px;
+    text-align: center;
+    position: relative;
+}
+
+h2::before {
+    content: '';
+    width: 170px;
+    border-bottom: 1px solid #EC7979;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -40px
+}
+
+.media__title {
+    text-transform: capitalize;
     margin-bottom: 16px;
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+    text-align: start;
+}
+
+.media__title::before {
+    display: none;
 }
 
 .media__description {
@@ -338,24 +362,7 @@
 
 
 
-h2 {
-    text-transform: uppercase;
-    font-size: 36px;
-    line-height: 42px;
-    margin-bottom: 80px;
-    text-align: center;
-    position: relative;
-}
 
-h2::before {
-    content: '';
-    width: 170px;
-    border-bottom: 1px solid #EC7979;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -40px
-}
 
 .awesome__description {
     font-weight: 400;
@@ -586,7 +593,7 @@ h2::before {
 .design {
 
     background: url(../img/fon.jpg) center right / cover no-repeat;
-    padding: 70px 15px;
+    padding: 70px 0px;
     position: relative;
     z-index: 1;
     margin-bottom: 70px;
@@ -608,12 +615,12 @@ h2::before {
     text-align: center;
 }
 
-.design__tittle {
+.design__title {
     text-transform: uppercase;
     color: #fff;
 }
 
-.design__tittle::before {
+.design__title::before {
 
     border-bottom: 1px solid #fff;
 
@@ -643,7 +650,7 @@ h2::before {
 
 footer {
     background-color: #000000;
-    padding: 35px 15px 27px 15px;
+    padding: 35px 0 27px;
 }
 
 .messengers__container {
