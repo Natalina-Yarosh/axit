@@ -39,6 +39,197 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.enter{
+    background: url(../img/background-street.jpg) center / cover no-repeat;
+    position: relative;
+    padding: 306px 0 185px;
+}
+
+.enter::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.enter__content{
+    display: flex;
+    align-items: center;
+}
+
+.enter__info{
+    width: 60%;
+    padding-right: 30px;
+}
+
+.enter__form{
+    width: 40%;
+    align-items: center;
+}
+
+.enter__logo{
+    margin-bottom: calc(72.88px - 17px);
+}
+
+.enter__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 97.12px;
+    position: relative;
+}
+
+.enter__title::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    height: 0;
+    margin: 0 auto;
+    top: calc(100% + 55.12px);
+    left: 0;
+}
+
+.enter__slogan{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 42px;
+}
+
+.enter__button{
+    max-width: 270px;
+    width: 100%;
+    padding: 16px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif; 
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.enter__button:hover{
+    max-width: 270px;
+    width: 100%;
+    padding: 16px;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif; 
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.enter__button:active{
+    max-width: 270px;
+    width: 100%;
+    padding: 16px;
+    color: #FFFFFF;
+    border: 2px solid #AB4949;  
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif; 
+    cursor: pointer;
+    background: #AB4949;
+}
+
+.enter__fieldset{
+    border: none;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+}
+
+
+.enter__form{
+    display: flex;
+    align-items: center;
+}
+
+.enter__form_frm{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 36px;
+}
+
+.enter__title_frm{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.enter__span{
+    color: #EC7979;
+}
+
+.enter_item{
+    width: 100%;
+    height: 39px;
+}
+
+.enter_button_frm{
+    width: 100%;
+    margin-top: 75px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif; 
+    height: 60px;
+    border: 1px solid transparent;
+}
+
+.enter_button_frm:hover{
+    width: 100%;
+    margin-top: 75px;
+    background: #AB4949;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif; 
+    height: 60px;
+    border: 1px solid transparent;
+}
+
+.enter_button_frm:active{
+    width: 100%;
+    margin-top: 75px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif; 
+    height: 60px;
+    border: 1px solid transparent;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 .transitions{
     margin-bottom: 110px;
 }
