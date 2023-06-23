@@ -32,14 +32,13 @@ position: relative;
 
 .header__nav_list {
     display: flex;
-    justify-content: space-around;
-    max-width: 570px;
-    flex-basis: 100%;
     list-style: none;
 }
 
 .header__nav_item {
     align-self: center;
+    min-width: 114px;
+    text-align: center;
 }
 
 .header__link {
@@ -50,6 +49,146 @@ position: relative;
     text-transform: capitalize;
     color: #FFFFFF;
 }
+
+.header__link:hover {
+    color: #EC7979;
+}
+
+
+/* Styler banner */
+
+.banner {
+    padding: 306px 0 185px;
+    background: url(/img/banner-bg.jpg) center / cover no-repeat;
+    position: relative;
+}
+
+.banner__wrap {
+        display: flex;
+        align-items: center;
+}
+
+.banner::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner__logo_wrap {
+    max-width: 170px;
+    max-height: 55px;
+    display: inline-block;
+    margin-bottom: 73px;
+}
+
+.banner__title {
+    max-width: 670px;
+    color: #FFF;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 97px;
+
+}
+
+.banner__title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background-color: #FFFFFF ;
+    top: calc(100% + 55px);
+}
+
+.banner__subtitle {
+    max-width: 270px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 42px;
+}
+
+.banner__btn {
+    display: block;
+    padding: 20px;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    max-width: 270px;
+    text-align: center;
+}
+
+.banner__btn:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner__form {
+    width: 470px;
+    background: #FFF;
+    border-radius: 10px;
+    padding-top: 36px;
+}
+
+.banner__form_title {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.red_text {
+    color: #EC7979;
+}
+
+.banner__input_wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 75px;
+}
+
+.banner__input {
+    display: block;
+    width: 370px;
+    margin: 0 auto;
+    padding: 16px 0;
+    color: #BDBDBD;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.banner__form_btn {
+    display: block;
+    padding: 23px;
+    border-radius: 0px 0px 10px 10px;
+    background: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.banner__form_btn:hover {
+    background: #AB4949;
+}
+
 
 /* Styles media */
 
@@ -80,7 +219,7 @@ position: relative;
 }
 
 .media__text {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -93,10 +232,15 @@ position: relative;
     justify-content: space-between;
     flex-basis: 100%;
     list-style: none;
+    align-self: center;
 }
 
 .media__list_item {
-    align-self: center;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .media__svg_wrap:hover path {
@@ -128,6 +272,18 @@ position: relative;
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0px 0px;
     border-bottom: none;
+    position: relative;
+}
+
+.tabs__item_active::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 202px;
+    height: 1px;
+    background-color: #FFFFFF ;
+    top: 100%;  
+    left: 0;
 }
 
 .tabs__offer {
@@ -153,7 +309,7 @@ position: relative;
 }
 
 .offer__text {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -180,6 +336,10 @@ position: relative;
     padding: 16px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #AB4949;
 }
 
 .offer__wrap-img {
@@ -277,6 +437,7 @@ position: relative;
 .pricing {
     padding: 82px 0;
     background: #F5F5F5;
+    margin-bottom: 107px;
 }
 
 .pricing__title {
@@ -355,7 +516,7 @@ position: relative;
 /* Styles customers */
 
 .customers {
-    padding: 107px 0;
+    margin-bottom: 107px;;
 }
 .customers__title {
     font-family: 'Raleway', sans-serif;
@@ -400,7 +561,7 @@ position: relative;
     border: 20px solid transparent; border-top: 20px solid #E2E2E2;
     position: absolute;
     top: 100%;
-    left: 25%;
+    left: 70px;
 }
 
 .card__text {
@@ -422,7 +583,8 @@ position: relative;
 
 .user__img {
     width: 100%;
-    object-fit: scale-down;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card__user-info_wrap {
@@ -454,6 +616,7 @@ position: relative;
     padding: 70px 0;
     background: url(/img/axure-bg.jpg) center / cover no-repeat;
     position: relative;
+    margin-bottom: 67px;
 }
 
 .axure::before {
@@ -501,19 +664,97 @@ position: relative;
     color: #FFFFFF;
     margin-bottom: 80px;
 }
-.axure__btn_wrap {
-    text-align: center;
-}
 
 .axure__btn {
-    display: inline-block;
-    padding: 20px 140px;
+    display: block;
+    padding: 20px;
     border: 2px solid #FFFFFF;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
     color: #FFFFFF;
+    max-width: 370px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.axure__btn:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+/* Styles contact_us */
+.contact_us {
+    margin-bottom: 66px;
+}
+.contact_us__title {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 80px;
+}
+
+.contact_us__subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #86878B;
+    margin-bottom: 73px;
+}
+.contact_us__form {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.contact_us__input_wrap {
+    display: flex;
+    row-gap: 31px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_us__form_input {
+    display: block;
+    width: 570px;
+    padding: 16px 0;
+    color: #BDBDBD;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.contact_us__form_textarea {
+    resize: none;
+    width: 570px;
+    height: 230px;
+}
+
+.contact_us__btn {
+    display: block;
+    padding: 20px;
+    background: #EC7979;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    max-width: 370px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_us__btn:hover {
+    background: #AB4949;
 }
 /* Styles footer */ 
 
@@ -525,14 +766,19 @@ position: relative;
 .footer__list {
     list-style: none;
     display: flex;
-    max-width: 570px;
+    column-gap: 32px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
 }
 
 .footer__list_item {
-    align-self: center;
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__svg_wrap:hover path {

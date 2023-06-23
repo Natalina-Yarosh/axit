@@ -12,9 +12,10 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header__wrap_nav">
-                <a class="header__wrap_logo" href="#"><img class="header__logo" src="/img/logo-header.svg" alt="logo-header"></a>
+        <div class="container header__wrap_nav">
+                <a class="header__wrap_logo" href="#">
+                    <img class="header__logo" src="/img/logo-header.svg" alt="logo-header">
+                </a>
                 <ul class="header__nav_list">
                     <li class="header__nav_item"><a class="header__link" href="#">Features</a></li>
                     <li class="header__nav_item"><a class="header__link" href="#">About</a></li>
@@ -22,13 +23,33 @@
                     <li class="header__nav_item"><a class="header__link" href="#">Reviews</a></li>
                     <li class="header__nav_item"><a class="header__link" href="#">Contact</a></li>
                 </ul>
-            </div>
         </div>
 
     </header>
+    <section class="banner">
+        <div class="container banner__wrap">
+            <div class="banner__info_wrap">
+                <a class="banner__logo_wrap" href="#">
+                    <img class="banner__logo" src="/img/logo-banner.svg" alt="banner-logo">
+                </a>
+                <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <p class="banner__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="" class="banner__btn">Download</a>
+            </div>
+            <form action="#" class="banner__form">
+                <h3 class="banner__form_title">Try Your <span class="red_text">FREE</span> Trial Today</h3>
+                <div class="banner__input_wrap">
+                    <input class="banner__input" type="text" placeholder="Name">
+                    <input class="banner__input" type="email" placeholder="Email"> 
+                    <input class="banner__input" type="password" placeholder="Password">
+                </div>
+                <a href="" class="banner__form_btn">Get Started</a>
+                    
+            </form>
+        </div>
+    </section>
     <div class="media">
-        <div class="container">
-            <div class="media__wrap">
+        <div class="container media__wrap">
                 <div class="media__text_wrap">
                     <h2 class="media__title">Social Media</h2>
                     <p class="media__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -66,7 +87,6 @@
                         </svg>
                         </a></li>
                 </ul>
-            </div>
         </div>
     </div>
     <div class="tabs">
@@ -237,9 +257,24 @@
         <div class="container">
             <h2 class="axure__title axure__decoration">STYLISH AXURE DESIGN</h2>
             <p class="axure__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-            <div class="axure__btn_wrap">
                 <a href="#" class="axure__btn">Download</a>
-            </div>
+        </div>
+    </section>
+    <section class="contact_us">
+        <div class="container">
+            <h2 class="contact_us__title decoration">contact us</h2>
+            <p class="contact_us__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="#" class="contact_us__form">
+                <div class="contact_us__input_wrap">
+                    <input class="contact_us__form_input" type="text" placeholder="Name">
+                    <input class="contact_us__form_input" type="email" placeholder="Email">
+                    <input class="contact_us__form_input" type="password" placeholder="Password">
+                </div>
+                <div class="contact_us__textarea_wrap">
+                    <textarea class="contact_us__form_input contact_us__form_textarea" placeholder="Message"></textarea>
+                </div>
+            </form>
+            <a href="#" class="contact_us__btn">Send Message</a>
         </div>
     </section>
     <footer class="footer">
