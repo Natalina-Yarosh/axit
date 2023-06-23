@@ -36,40 +36,35 @@
     </div>
   </header>
   <section class="enter">
-    <div class="container">
-      <div class="enter__content">
+    <div class="container enter__content">
         <div class="enter__info">
-          <a href="#"> 
+          <div> 
             <svg class="enter__logo"  width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z" fill="white"/>
             <path d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z" fill="white"/>
             <path d="M107 55V0H117.64V55H107Z" fill="#EC7979"/>
             <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
             </svg>
-          </a>
-          <h2 class="enter__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+          </div>
+          <h1 class="enter__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
           <p class="enter__slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           <button class="enter__button">Download</button>
         </div>
-        <div class="enter__form">
-          <form class="enter__form_frm">
-            <fieldset class="enter__fieldset">
-              <h2 class="enter__title_frm">Try Your <span class="enter__span">FREE</span> Trial Today</h2>
-              <input class="enter_item" type="text" placeholder="Name">
-              <input class="enter_item" type="text" placeholder="Email">
-              <input class="enter_item" type="text" placeholder="Password">
-            </fieldset>
-             <button class="enter_button_frm">Get Started</button>
-          </form>
-        </div>
-      </div>
+        <form class="enter__form">
+            <h2 class="enter__title_frm">Try Your <span class="enter__span">FREE</span> Trial Today</h2>
+            <div class="enter__form_item">
+              <input class="enter_item" type="text" placeholder="Name" tabindex="1">
+              <input class="enter_item" type="email" placeholder="Email" tabindex="2">
+              <input class="enter_item" type="password" placeholder="Password" tabindex="3">
+            </div>
+            <button class="enter_button_frm" type="submit" tabindex="4">Get Started</button>
+        </form>
     </div>
   </section>
   <section class="media">
-    <div class="container">
-      <div class="media__baner">
+    <div class="container media__baner">
         <div class="media__info">
-         <h3 class="media__title">Social Media</h3>
+         <h2 class="media__title">Social Media</h2>
           <p class="media__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
              Aenean euismod bibendum laoreet.</p>
         </div>
@@ -105,7 +100,6 @@
             </svg>
             </a></li>
         </ul>
-      </div>
     </div>
   </section>
   <div class="transitions">
@@ -115,7 +109,7 @@
         <a class="transitions__tab" href="#">tab 2</a>
         <a class="transitions__tab" href="#">tab 3</a>
       </div>
-      <div class="transitions__content">
+      <article class="transitions__content">
         <div class="transitions__info">
           <h2 class="transitions__title">Tabs with soft transitioning effect.</h2>
           <div class="transitions__description">
@@ -128,7 +122,7 @@
         <div class="transitions__wrap-image">
           <img class="transitions__img" src="img/Freedom.jpg" alt="statue freedom">
         </div>
-      </div>
+      </article>
     </div>
   </div>
   <section class="advantages">
@@ -258,6 +252,25 @@
       <h2 class="title title__design">STYLISH AXURE DESIGN</h2>
       <p class="design__slogan">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
       <button class="design__button">Download</button>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <div class="contact__info">
+        <h2 class="title contact__title">contact us</h2>
+        <p class="contact__slogn">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <form class="contact__form">
+        <div class="contact__wrap">
+          <div class="contact__form_input">
+            <input class="contact__input" type="text" placeholder="Name" tabindex="5">
+            <input class="contact__input" type="email" placeholder="Email" tabindex="6">
+            <input class="contact__input" type="password" placeholder="Password" tabindex="7">
+          </div>
+          <textarea class="textarea" name="" id="" placeholder="Message"></textarea>
+        </div>
+        <button class="contact__button" type="submit" >Send Message</button>
+      </form>
     </div>
   </section>
   <footer class="footer">
