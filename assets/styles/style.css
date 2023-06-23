@@ -126,12 +126,10 @@
     background-color: #ec7979;
     border: 1px solid #ec7979;
     border-radius: 0 0 10px 10px;
-
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
-
     width: 100%;
     color: #ffffff;
     padding: 16px;
@@ -413,12 +411,14 @@ h2::before {
 
 }
 
-.tab__btn:hover {
+.tab__btn:hover,
+.form__baner__btn:hover {
     background: #AB4949;
 
 }
 
-.tab__btn:active {
+.tab__btn:active,
+.form__baner__btn:active {
 
     background: #EC7979;
 
