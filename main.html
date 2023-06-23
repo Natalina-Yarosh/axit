@@ -30,19 +30,16 @@
                 <div class="cover__description">
                     <div class="cover__logo-wrap"><img class="cover__logo" src="/image/logo big.svg" alt="logo"></div>
                     <h1 class="cover__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                    <p class="cover__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></p>
+                    <p class="cover__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <button class="cover__btn first__btn">download</button>
                 </div>
             <form class="cover__form">
                 <div class="cover__form_container">
-                <div class="form__titles" ><h2 class="form__title">try you</h2>
-                    <span class="form__title form__title-select">free</span>
-                    <h2 class="form__title">trial today</h2>
+                    <h2 class='form__title'>try you <span class="form__title form__title-select">free </span> trial today</h2>
+                    <input class="form-field cover__form-field" type="text" name="form__name" placeholder="Name" required>
+                    <input class="form-field cover__form-field" type="email" name="form__email" placeholder="Email" required>
+                    <input class="form-field cover__form-field" type="password" name="form__password" placeholder="Password" required>
                 </div>
-                <input class="form-field cover__form-field" type="text" name="form__name" placeholder="Name" required>
-                <input class="form-field cover__form-field" type="email" name="form__email" placeholder="Email" required>
-                <input class="form-field cover__form-field" type="password" name="form__password" placeholder="Password" required>
-            </div>
                 <button class="second-btn cover__form_btn">get started</button>
             </form>
         </div>
@@ -97,9 +94,10 @@
     <div class="tab-info">
         <div class="container">
             <div class="tab-info__items">
-                <a class="tab-info__item">tab1</a>
-                <a class="tab-info__item">tab2</a>
-                <a class="tab-info__item">tab3</a></div>
+                <a class="tab-info__item tab-info__item_active" href="#">tab1</a>
+                <a class="tab-info__item" href="#">tab2</a>
+                <a class="tab-info__item" href="#">tab3</a>
+            </div>
         <article class="tab-info__tab">
             <div class="tab__content">
             <h2 class="tab__effect-title">Tabs with soft transitioning effect.</h2>
@@ -255,16 +253,18 @@
                 <h2 class="title contact__title">contact us</h2>
                 <p class="subtitle customer__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <form class="contact__form">
-                    <fieldset class="contact__form-data">
+                    <div class="contact__form_wrapper">
+                    <div class="contact__form-data">
                         <input class="form-field contact__form-field" type="text" name="form__name" placeholder="Name">
                         <input class="form-field contact__form-field" type="email" name="form__email" placeholder="Email">
                         <input class="form-field contact__form-field" type="password" name="form__password" placeholder="Password">
-                    </fieldset>
-                    <fieldset class=" contact__form-data"> 
+                    </div>
+                    <div class="contact__form-data">
                         <textarea class="form-field contact__message" type="textarea" name="form__texarea" placeholder="Message"></textarea>
-                    </fieldset>
-                </form>
-            <button class="second-btn contact__btn">send message</button>
+                    </div>
+                </div>
+                    <button class="second-btn contact__btn">send message</button>
+                </form>          
         </section>
     <footer class="footer">
             <div class="container">
