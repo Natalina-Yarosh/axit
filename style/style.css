@@ -209,6 +209,13 @@
     font-family: 'Open Sans', sans-serif; 
 }
 
+.enter_item:focus-visible{
+   outline: none;
+   color: #000000;
+   filter: drop-shadow(0 0 3px rgba(100,0,0,0.5));
+}
+
+
 .enter_button_frm{
     width: 100%;
     background: #EC7979;
@@ -791,11 +798,24 @@
     font-family: 'Open Sans', sans-serif; 
 }
 
+.contact__input:focus-visible{
+    outline: none;
+    color: #000000;
+    filter: drop-shadow(0 0 3px rgba(100,0,0,0.5));
+}
+
 .textarea{
     flex: auto;
     resize: none;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
+}
+
+.textarea:focus-visible{
+    outline: none;
+    color: #000000;
+    filter: drop-shadow(0 0 3px rgba(100,0,0,0.5));
 }
 
 .contact__button{
