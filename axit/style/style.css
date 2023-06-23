@@ -73,7 +73,12 @@ body {
 }
 
 .nav__link:hover {
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--main-color);
+    transition: .3s;
+}
+
+.nav__link:active {
+    color: var(--second-color);
     transition: .3s;
 }
 
@@ -108,12 +113,90 @@ body {
     max-width: 57%;
 }
 
-.promo__form {
+.form {
     max-width: 40%;
     width: 100%;
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 36px 0 50px;
+    padding: 36px 0 0;
+    height: 100%;
+    margin-top: 27px;
+}
+
+.form__title {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 370px;
+    margin: 0 auto 75px;
+}
+
+.form__title-span {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.form__input-wrapper {
+    max-width: 370px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+    margin-bottom: 75px;
+}
+
+.form__input {
+    color: black;
+    font-size: 14px;
+    font-family: Open Sans;
+    height: 36.8px;
+    border: 0;
+    padding: 0 0 16.8px;
+    width: 100%;
+    border-bottom: 0.5px solid #BDBDBD;
+}
+
+.form__input::placeholder {
+    color: #BDBDBD;
+}
+
+.form__input:focus {
+    outline: none;
+    border-bottom: 0.5px solid var(--main-color);
+    transition: .5s;
+}
+
+.form__button {
+    border: none;
+    color: #FFF;
+    background: var(--main-color);
+    text-align: center;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 600;
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background: var(--second-color);
+    transition: .5s;
+}
+
+.form__button:active {
+    background: var(--main-color);
+    box-shadow: 0px 0px 10px 0px var(--second-color) inset;
+    transition: .5s;
 }
 
 .promo__logo-wrapper {
@@ -688,12 +771,75 @@ body {
 
 /* Contact Us */
 .contact__subtitle {
-    margin-bottom: 0;
+    margin-bottom: 89px;
 }
 
 /*Contacts*/
 .contact {
     margin-bottom: 67px;
+}
+
+.form__contact {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form__wrapper {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.form__input-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    flex: 1 0;
+}
+
+.form__textarea {
+    flex: 1 0;
+    resize: none;
+    border: 0;
+    border-bottom: 0.5px solid #BDBDBD;color: black;
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+.form__textarea:focus {
+    outline: none;
+    border-bottom: 0.5px solid var(--main-color);
+    transition: .5s;
+}
+
+.form__button-contact {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: var(--main-color);
+    max-width: 370px;
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+}
+
+.form__button-contact:hover {
+    background: var(--second-color);
+    transition: .5s;
+}
+
+.form__button-contact:active {
+    background: var(--main-color);
+    box-shadow: 0px 0px 10px 0px var(--second-color) inset;
+    transition: .5s;
+}
+
+.form__textarea::placeholder {
+    color: #BDBDBD;
 }
 
 /*Footer*/
