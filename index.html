@@ -29,9 +29,9 @@
     <section class="banner">
         <div class="container banner__wrap">
             <div class="banner__info_wrap">
-                <a class="banner__logo_wrap" href="#">
+                <div class="banner__logo_wrap">
                     <img class="banner__logo" src="/img/logo-banner.svg" alt="banner-logo">
-                </a>
+                </div>
                 <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
                 <p class="banner__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <a href="" class="banner__btn">Download</a>
@@ -43,12 +43,12 @@
                     <input class="banner__input" type="email" placeholder="Email"> 
                     <input class="banner__input" type="password" placeholder="Password">
                 </div>
-                <a href="" class="banner__form_btn">Get Started</a>
+                <button href="" class="banner__form_btn">Get Started</button>
                     
             </form>
         </div>
     </section>
-    <div class="media">
+    <section class="media">
         <div class="container media__wrap">
                 <div class="media__text_wrap">
                     <h2 class="media__title">Social Media</h2>
@@ -88,7 +88,7 @@
                         </a></li>
                 </ul>
         </div>
-    </div>
+    </section>
     <div class="tabs">
         <div class="container">
             <div class="tabs__list">
@@ -96,7 +96,7 @@
                 <a class="tabs__item" href="#">Tab 2</a>
                 <a class="tabs__item" href="#">Tab 3</a>
             </div>
-            <div class="tabs__offer">
+            <article class="tabs__offer">
                 <div class="offer__info">
                     <h2 class="offer__title">
                         Tabs with soft transitioning effect.
@@ -115,7 +115,7 @@
                 <div class="offer__wrap-img">
                     <img class="offer__img" src="img/StatueofLiberty.jpg" alt="The Statue of Liberty">
                 </div>
-            </div>
+            </article>
         </div>
     </div>
     <section class="awesome">
@@ -123,29 +123,29 @@
             <h2 class="awesome__title decoration">WHY THIS IS AWESOME</h2>
             <p class="awesome__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="awesome__advantages">
-                <div class="advantage">
+                <article class="advantage">
                     <div class="advantage__wrap-img">
                         <img class="advantage__img" src="img/lightbulb.png" alt="lightbulb">
                     </div>
                     <h3 class="advantage__title">Thoughtful Design</h3>
                     <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-                </div>
-                <div class="advantage">
+                </article>
+                <article class="advantage">
                     <div class="advantage__wrap-img">
                         <img class="advantage__img" src="img/keyboard.png" alt="keyboard">
                     </div>
                     <h3 class="advantage__title">Thoughtful Design</h3>
                     <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
 
-                </div>
-                <div class="advantage">
+                </article>
+                <article class="advantage">
                     <div class="advantage__wrap-img">
                         <img class="advantage__img" src="img/lightning.png" alt="lightning">
                     </div>
                     <h3 class="advantage__title">Thoughtful Design</h3>
                     <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
 
-                </div>          
+                </article>          
 
             </div>
         </div>
@@ -264,7 +264,7 @@
         <div class="container">
             <h2 class="contact_us__title decoration">contact us</h2>
             <p class="contact_us__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <form action="#" class="contact_us__form">
+            <form action="#" class="contact_us__form" id="contact_us__form">
                 <div class="contact_us__input_wrap">
                     <input class="contact_us__form_input" type="text" placeholder="Name">
                     <input class="contact_us__form_input" type="email" placeholder="Email">
@@ -274,7 +274,7 @@
                     <textarea class="contact_us__form_input contact_us__form_textarea" placeholder="Message"></textarea>
                 </div>
             </form>
-            <a href="#" class="contact_us__btn">Send Message</a>
+            <button href="#" class="contact_us__btn" type="submit" form="contact_us__form">Send Message</button>
         </div>
     </section>
     <footer class="footer">
