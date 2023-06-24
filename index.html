@@ -31,10 +31,37 @@
                 </ul>
         </div>
     </header>
+    <section class="banner">
+        <div class="banner__container">
+            <div class="banner__wrapper">
+                <div class="banner__box">
+                    <div class="banner__logo-wrap">
+                        <svg class="banner__logo" width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z" fill="white"/>
+                            <path d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z" fill="white"/>
+                            <path d="M107 55V0H117.64V55H107Z" fill="#EC7979"/>
+                            <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
+                        </svg>
+                    </div>
+                    <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <p class="banner__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a class="banner__btn" href="#" download="#">Download</a>
+                </div>
+                <form class="banner__form">
+                    <h3 class="banner__form-title">Try Your <span class="banner__title-span">FREE</span> Trial Today</h3>
+                    <div class="banner__form-wrap">
+                        <input type="text" class="banner__input" required placeholder="Name">
+                        <input type="email" class="banner__input" required placeholder="Email">
+                        <input type="password" class="banner__input" required placeholder="Password">
+                    </div>
+                    <button class="banner__form-btn" type="submit">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </section>
 <section class="awesome">
 <div class="container">
-    <h2 class="awesome__title">why this is awesome</h2>
-    <div  class="awesome__line"></div>
+    <h2 class="awesome__title" id="awesome">why this is awesome</h2>
     <p class="awesome__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div class="advantages">
         <div class="advantages__block">
@@ -82,15 +109,14 @@
     </div>
 </section>
 <section class="pricing">
-    <h2 class="pricing__title">pricing options</h2>
-    <div class="pricing__line"></div>
+    <h2 class="pricing__title" id="price">pricing options</h2>
     <p class="pricing__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div class="wrapper">
         <div class="wrapper__col">
             <ul class="wrapper_list">
-                <li class="wrapper_item">Basic</li>
-                <li class="wrapper_item">$10</li>
-                <li class="wrapper_item">Free for life</li>
+                <li class="wrapper_item item-name">Basic</li>
+                <li class="wrapper_item item-cost">$10</li>
+                <li class="wrapper_item item_free">Free for life</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
@@ -101,9 +127,9 @@
         </div>
         <div class="wrapper__col">
             <ul class="wrapper_list">
-                <li class="wrapper_item">Optima</li>
-                <li class="wrapper_item">$20</li>
-                <li class="wrapper_item">Free for life</li>
+                <li class="wrapper_item item-name">Optima</li>
+                <li class="wrapper_item item-cost">$20</li>
+                <li class="wrapper_item item_free">Free for life</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
@@ -114,9 +140,9 @@
         </div>
         <div class="wrapper__col">
             <ul class="wrapper_list">
-                <li class="wrapper_item">Pro</li>
-                <li class="wrapper_item">$30</li>
-                <li class="wrapper_item">Free for life</li>
+                <li class="wrapper_item item-name">Pro</li>
+                <li class="wrapper_item item-cost">$30</li>
+                <li class="wrapper_item item_free">Free for life</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
                 <li class="wrapper_item">1 Gb Of Space</li>
@@ -129,8 +155,7 @@
 </section>
 <section class="customers">
     <div class="container">
-        <h2 class="customer__title">what our customers are saying</h2>
-        <div class="customer__line"></div>
+        <h2 class="customer__title" id="customers">what our customers are saying</h2>
         <p class="customer__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="customer__box-wrapper">
             <div class="customer__item">
@@ -189,10 +214,25 @@
         <h2 class="design__title">STYLISH AXURE DESIGN</h2>
         <div class="design__line"></div>
         <p class="design__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-        <a class="design__button btn" href="#" download="#">Download</a>
+        <a class="design__button" href="#" download="#">Download</a>
     </div>
 </section>
-<footer class="footer">
+<section class="contact">
+    <h2 class="contact__title">contact us</h2>
+    <p class="contact__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <form class="contact__user">
+        <div class="contact__wrap">
+            <div class="contact__info">
+                <input class="contact__input" type="text" placeholder="Name">
+                <input class="contact__input" type="email" placeholder="Email">
+                <input class="contact__input" type="password" placeholder="Password">
+            </div>
+            <textarea class="contact__massage" placeholder="Massage"></textarea>
+        </div>
+        <a href="#" class="contact__btn">Send massage</a>
+    </form>
+</section>
+<footer class="footer" id="footer">
     <div class="container">
         <ul class="footer__wrapper">
             <li class="footer__item">
