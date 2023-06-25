@@ -144,6 +144,7 @@
     color: #333333;
     margin-bottom: 59px;
     text-align: center;
+    padding: 0 15px;
 }
 
 .form__title-span {
@@ -191,7 +192,6 @@
 .form__btn {
     border: none;
     max-width: 470px;
-    width: 100%;
     padding: 17px;
     background: #EC7979;
     border-radius: 0 0 10px 10px;
