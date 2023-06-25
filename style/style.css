@@ -200,10 +200,11 @@
     max-width: 470px;
     border-radius: 10px;
     background: #FFFFFF;
+    padding-top:36px;
     
 }
 .cover__form_container {
-    padding:36px 50px 0px 50px;
+    padding:0px 50px 0px 50px;
     margin-bottom: 75px;
 }
 .form__title {
@@ -357,10 +358,10 @@
 .tab-info__item:hover::after{
     display:inline-block;
     content:"";
+    width:100%;
     position:absolute;
     width:203px;
     border-bottom: 1px solid #ffffff;
-    margin:0 auto 40px;
     top:100%;
     right:0%;
 }
