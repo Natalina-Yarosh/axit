@@ -33,7 +33,7 @@
     background-color: #AB4949;
 }
 
-.nav__item__link {
+.nav__link {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -98,6 +98,7 @@
     height: 0;
     border-top: 1px solid #FFFFFF;
     top: 100%;
+    left: 0;
     transform: translateY(55px);
 }
 
@@ -161,12 +162,12 @@
     color: #EC7979;
 }
 
-.input-box {
+.registration-box {
     padding: 0 50px;
     margin-bottom: 75px;
 }
 
-.input-box__item {
+.registration__item {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -180,7 +181,7 @@
     outline: none;
 }
 
-.input-box__item:last-child {
+.registration__item:last-child {
     margin-bottom: 0;
 }
 
@@ -632,7 +633,7 @@
     position: absolute;
     left: 50%;
     top: 100%;
-    transform: translate(-85px, 40px);
+    transform: translate(-50%, 40px);
 }
 
 .design__text {
@@ -668,7 +669,6 @@
 
 .form__blocks {
     display: flex;
-    flex: 1 0;
     column-gap: 30px;
     margin-bottom: 50px;
 }
