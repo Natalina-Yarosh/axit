@@ -88,7 +88,7 @@
     border-radius: 10px;
 }
 
-.form__baner__input {
+.form__input {
     border: none;
     border-bottom: solid 1px #BDBDBD;
     padding: 15px 0;
@@ -97,17 +97,17 @@
     width: 100%;
 }
 
-.form__baner__input:not(:last-child) {
+.form__input:not(:last-child) {
     margin-bottom: 18px;
 }
 
-.baner__form__wrap {
+.baner__form-wrap {
     width: 100%;
     padding: 0 50px;
     margin-bottom: 75px;
 }
 
-.baner__form__title {
+.baner__form-title {
     padding: 0 15px;
     text-align: center;
     font-size: 24px;
@@ -117,11 +117,11 @@
     margin-bottom: 60px;
 }
 
-.baner__form__title::before {
+.baner__form-title::before {
     display: none;
 }
 
-.baner__form__title_color {
+.baner__form-title_color {
     text-align: center;
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
@@ -130,7 +130,7 @@
     color: #EC7979;
 }
 
-.form__baner__btn {
+.form__baner-btn {
     background-color: #ec7979;
     border: 1px solid #ec7979;
     border-radius: 0 0 10px 10px;
@@ -205,12 +205,14 @@
     z-index: 2;
 }
 
+
 .baner__btn:hover,
 .design__btn:hover {
     border: 1px solid #EC7979;
     color: #EC7979;
 
 }
+
 
 .baner__btn:active,
 .design__btn:active {
@@ -781,7 +783,7 @@ footer {
 }
 
 
-.form__wrap {
+.form-contact__wrap {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
@@ -789,7 +791,7 @@ footer {
 
 }
 
-.form__cont__input {
+.form-contact__input {
     border: none;
     border-bottom: solid 1px #BDBDBD;
     padding: 15px 0;
@@ -798,15 +800,15 @@ footer {
     width: 100%;
 }
 
-.form__cont__input:not(:last-child) {
+.form-contact__input:not(:last-child) {
     margin-bottom: 35px;
 }
 
-.form__data {
+.form-contact__data {
     flex: 1 0;
 }
 
-.message {
+.form-contact__textarea {
     border: none;
     border-bottom: solid 1px #BDBDBD;
     padding: 15px 0;
@@ -821,22 +823,24 @@ footer {
 
 
 
-.form__cont {
+.form-contact {
     text-align: center;
 }
 
-.form__btn {
+.form-contact__btn {
     background-color: #ec7979;
     border: 1px solid #ec7979;
 
 }
 
-.form__btn:hover {
+.form__baner-btn:hover,
+.form-contact__btn:hover {
     background: #AB4949;
 
 }
 
-.form__btn:active {
+.form__baner-btn:active,
+.form-contact__btn:active {
 
     background: #EC7979;
 
