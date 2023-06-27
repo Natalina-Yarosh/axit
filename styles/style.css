@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container{
     max-width: 1202px;
     padding: 0 16px;
@@ -16,7 +15,9 @@
     height: 0;
     border-top: 1px solid #EC7979;
     position:absolute;
-    transform: translate(500px,40px);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,40px);
 }
 .btn:hover{
     border: 2px solid #EC7979;
@@ -83,6 +84,7 @@
     display: flex;
     position: relative;
     align-items: center;
+    justify-content: space-between;
 }
 .banner__logo-box{
     display: inline-block;
@@ -145,6 +147,7 @@
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px;
+    padding-top: 36px;
 }
 .form__title{
     text-align: center;
@@ -152,7 +155,8 @@
     font-family: Open Sans;
     font-weight: 700;
     text-transform: uppercase;
-    padding:36px 0 75px;
+    margin-bottom: 75px;
+    padding: 0 15px;
 }
 .form__title_span{
     color: #EC7979;
@@ -165,7 +169,8 @@
 .form__input-box{
     max-width: 370px;
     width: 100%;
-    margin-bottom: 78px;
+    margin-bottom: 75px;
+    padding: 0 15px;
 }
 .form__input{
     width: 100%;
@@ -184,7 +189,6 @@
 }
 .form__button {
     border: none;
-    max-width: 470px;
     width: 100%;
     background: #EC7979;
     border-radius: 0 0 10px 10px;
@@ -312,6 +316,7 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
+    position: relative;
 }
 .awesome__text{
     font-family: 'Raleway', sans-serif;
@@ -372,6 +377,7 @@
     font-size: 36px;
     line-height: 42px;
     margin-bottom: 80px;
+    position: relative;
 }
 .pricing__text{
     margin-bottom: 79px;
@@ -558,9 +564,9 @@
     height: 0;
     border-top: 1px solid #FFFFFF;
     position: absolute;
-    left: 0;
-    top: 0;
-    transform: translate(500px, 80px);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,40px);
 }
 .design__text{
     font-family: 'Raleway';
@@ -595,6 +601,7 @@
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 80px;
+    position: relative;
 }
 
 .contact__text{
@@ -609,14 +616,12 @@
 .contact-form__box{
     margin-bottom: 50px;   
     display: flex;
-    flex: 1 0;
     column-gap: 30px;
 }
 .contact-form__inputs{
     flex: 1 0;
 }
 .contact-form__input{
-    flex: 1 0;
     width:100%;
     margin-bottom: 50px;
     border: none;
