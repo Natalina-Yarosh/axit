@@ -9,6 +9,12 @@
     margin: 0 auto;
     text-align: center;
 }
+.awesome__container{
+    max-width: 1204px;
+    padding: 0 16px;
+    margin: 0 auto;
+    text-align: center;
+}
 .awesome{
     margin-bottom: 110px;
 }
@@ -23,14 +29,12 @@
 .awesome__title::before {
     content: '';
     display: block;
-    margin-bottom: 40px;
     border: 1px solid #EC7979;
     width: 170px;
-    margin: 0 auto;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);
-    
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px);
 }
 .awesome__discription{
     margin-bottom: 92px;
@@ -81,13 +85,11 @@
 .tabs__item_active::before{
     content: '';
     display: block;
-    margin-bottom: 40px;
     border: 1px solid #ffffff;
-    width: 200px;
-    margin: 0 auto;
+    width: 100%;
     position: absolute;
     top: 100%;
-    
+    left: 0;
 }
 .tabs__item{
     display: inline-block;
@@ -114,16 +116,14 @@
 }
 .box{
     border: 1px solid #C6CBCD;
+    display: flex;
 }
 .box__content{
-    width: 59%;
-    display: inline-block;
+    width: 60%;
     padding: 55px 29px 54px 100px;
 }
 .box_wrap-image{
     width: 40%;
-    display: inline-block;
-    vertical-align: top;
 }
 .box__title{
     margin-bottom: 57px;
@@ -164,7 +164,6 @@
 .pricing{
     text-align: center;
     background: #F5F5F5;
-    max-width: 1204px;
     padding: 82px 16px 83px;
     margin: 0 auto 107px;
 
@@ -182,13 +181,12 @@
 .pricing__title::before {
     content: '';
     display: block;
-    margin-bottom: 40px;
     border: 1px solid #EC7979;
     width: 170px;
-    margin: 0 auto;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);  
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px);
 }
 .pricing__discription{
     font-family: 'Raleway';
@@ -203,9 +201,10 @@
     display: flex;
     justify-content: space-between;
 }
-.wrapper_list{
+.wrapper__list{
     list-style: none;
     text-align: center;
+    flex: 1 0;
 }
 .wrapper_item{
     border: 2px solid #F5F5F5;
@@ -245,13 +244,12 @@
     color: #FFFFFF;
 }
 
-.wrapper__col:nth-child(2) {
+.wrapper__list:nth-child(2) {
     margin-top: -20px;
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
 .customers {
-    padding: 0px 16px;
-    margin: 0 auto 107px;
+    margin: 107px;
 }
 .customer__title{
     font-family: 'Raleway';
@@ -266,13 +264,12 @@
 .customer__title::before {
     content: '';
     display: block;
-    margin-bottom: 40px;
     border: 1px solid #EC7979;
     width: 170px;
-    margin: 0 auto;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);  
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px);
 }
 .customer__box-wrapper {
     display: flex;
@@ -371,14 +368,18 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     text-transform: uppercase;
 }
-.design__line{
-    margin-bottom: 40px;
+.design__title::before{
     border: 1px solid #FFFFFF;
+    content: '';
+    display: block;
     width: 170px;
-    margin: 0 auto 40px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, 40px);
 }
 .design__subtitle {
     font-family: 'Raleway';
@@ -397,6 +398,12 @@
     margin: 0 auto;
     display: block;
     padding: 15px 0px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
 }
 .design__button:hover {
     border: 2px solid va(--main-color); 
@@ -487,11 +494,7 @@
     transition: .3s;
 }
 .contact{
-    text-align: center;
-    background: #F5F5F5;
-    max-width: 1204px;
-    padding: 0px 16px;
-    margin: 0 auto 66px;
+    margin: 66px;
 
 }
 .contact__title{
@@ -507,13 +510,12 @@
 .contact__title::before {
     content: '';
     display: block;
-    margin-bottom: 40px;
     border: 1px solid #EC7979;
     width: 170px;
-    margin: 0 auto;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);  
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px); 
 }
 .contact__discription{
     font-family: 'Raleway';
@@ -531,6 +533,9 @@
     column-gap: 30px;
     margin-bottom: 50px;
 }
+.contact__info{
+    flex: 1 0;
+}
 .contact__input{
     font-family: 'Open Sans';
     font-style: normal;
@@ -544,6 +549,10 @@
     font-size: 14px;
     font-family: 'Open Sans';
     width: 100%;
+    margin-bottom: 50px;
+}
+.contact__input:last-child{
+    margin-bottom: 0px;
 }
 .contact__massage{
     color: #BDBDBD;
@@ -561,10 +570,16 @@
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     max-width: 370px;
+    width: 100%;
     margin: 0 auto;
     display: block;
     padding: 15px 0px;
     text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
 }
 .banner {
     padding: 306px 0 185px;
@@ -574,7 +589,10 @@
 }
 .banner__container {
     position: relative;
-    padding: 0px 170px;
+    text-align: left;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
 }
 .banner::before {
     content: "";
@@ -584,11 +602,6 @@
     top: 0;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
-}
-.banner__wrapper {
-    display: flex;
-    column-gap: 30px;
-    justify-content: space-between;
 }
 .banner__box {
     max-width: 57%;
@@ -705,4 +718,32 @@
     padding: 16px 0;
     border-radius: 0px 0px 10px 10px;
     cursor: pointer;
+}
+.media{
+    margin-bottom: 100px;
+    background-color: #F8EFEF;
+}
+.media__container{
+    display: flex;
+    text-align: left;
+}
+.media__title{
+    padding: 32px 0px 16px 0px ;
+    font-size: 24px;
+    font-family: "open sans", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+.media__text{
+    max-width: 470px;
+    font-family: "Raleway", sans-serif;
+    padding: 0px 0px 18px;
+    color: #86878B;
+}
+.media__logo{
+    display: flex;
+    column-gap: 30px;
+    padding: 35px ;
+    list-style: none;
+    justify-content: center;
 }
