@@ -182,6 +182,7 @@
     font-family: 'Open Sans', sans-serif; 
     text-transform: uppercase;
     padding: 0 50px 0 53px;
+    margin-bottom: 75px;
 }
 
 .enter__span{
@@ -189,7 +190,8 @@
 }
 
 .enter__form_item{
-    padding: 75px 50px;
+    padding: 0 50px;
+    margin-bottom: 75px;
 }
 
 .enter__form_item :last-child{
@@ -807,6 +809,7 @@
     color: #BDBDBD;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif; 
+    padding: 16px 0;
 }
 
 .textarea:focus-visible{
