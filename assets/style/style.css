@@ -755,7 +755,7 @@
 .media__logo{
     display: flex;
     column-gap: 30px;
-    padding: 35px ;
+    padding: 35px 0px 35px ;
     list-style: none;
     justify-content: center;
 }
