@@ -5,12 +5,8 @@
 }
 
 
-
-
-
 .header {
     background-color: #000000;
-    padding: 22px 0px;
 }
 
 .header__container {
@@ -22,6 +18,7 @@
 
 .header__items {
     display: flex;
+    padding: 22px 0px;
 }
 
 
@@ -96,6 +93,7 @@ color: white;
     left: 0;
     top: 100%;
     transform: translateY(40px);
+    position: absolute;
 }
 
 .banner__text {
@@ -152,6 +150,7 @@ color: white;
     color: #333333;
     margin-bottom: 59px;
     text-align: center;
+    padding: 0 15px;
 }
 
 .form__title-span {
@@ -173,6 +172,7 @@ color: white;
     max-width: 370px;
     width: 100%;
     margin-bottom: 75px;
+    padding: 0 15px;
 }
 
 .form__input {
@@ -195,7 +195,6 @@ color: white;
 
 .form__btn {
     border: none;
-    max-width: 470px;
     width: 100%;
     padding: 17px;
     background: #ec7979;
@@ -561,6 +560,19 @@ color: white;
     background-color: #e2e2e2;
     padding: 38px 25px 37px 25px;
     margin-bottom: 66px;
+    position: relative;
+}
+.review__box::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid red;
+    top: 100%;
+    left: 50px;
+    position: absolute;
+    display: block;
 }
 .review__text {
     color: #86878b;
@@ -724,6 +736,15 @@ object-fit: cover;
     padding: 16px 0 16px 0;
     margin-bottom: 34px;
     outline: none;
+}
+.contact-form__input:last-child{
+    margin-bottom: 0;
+}
+
+.contact-form__input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #bdbdbd;
 }
 
 .contact-form__textarea {
