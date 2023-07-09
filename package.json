@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
+}
